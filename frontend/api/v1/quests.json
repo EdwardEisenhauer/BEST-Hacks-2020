@@ -1,0 +1,16 @@
+{
+    "quests": [
+        {
+            "id": 1,
+            "title": "quest a"
+        },
+        {
+            "id": 2,
+            "title": "quest b"
+        },
+        {
+            "id": 3,
+            "title": "quest c"
+        }
+    ]
+}
