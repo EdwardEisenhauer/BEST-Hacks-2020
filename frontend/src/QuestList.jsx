@@ -6,7 +6,7 @@ function getQuest(id) {
     return fetch(`/api/v1/quests/${id}.json`).then(data => data.json())
 }
 
-function QuestView({ route, setRoute }) {
+function QuestView({ route, setRoute }) {   {/* TODO: delete this. Duplicate of Quest() */}
     const quest = route.quest;
     const [questDetails, setQuestDetails] = useState(null);
 
@@ -45,7 +45,7 @@ function QuestList({ setRoute }) {
                 onClick={() => {
                     setRoute({ view: QuestView, title: "Quest", quest });
                 }}>
-                <div class="title">{quest.title}</div>
+                <div class="title">{quest.title}<div style={{"float": "right"}}><Ons.Icon icon={quest.icon}/></div></div>
                 {quest.img && <div><img src={quest.img} style={{ width: "100%" }} /></div>}
             </Ons.Card>
         ))}

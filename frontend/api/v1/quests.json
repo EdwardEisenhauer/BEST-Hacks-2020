@@ -3,12 +3,16 @@
         {
             "id": 1,
             "title": "Take a city bike!",
-            "img": "https://www.co-investor.com/en/_portfolio/port-logo-nextbike.jpg"
+            "img": "https://www.co-investor.com/en/_portfolio/port-logo-nextbike.jpg",
+            "icon": "fa-biking",
+            "friends": ["", ""]
         },
         {
             "id": 2,
             "title": "Is it burger time?",
-            "img": "https://ervegan.com/wp-content/uploads/2020/01/ervegan-logo-2020.jpg"
+            "img": "https://ervegan.com/wp-content/uploads/2020/01/ervegan-logo-2020.jpg",
+            "icon": "fa-carrot",
+            "friends": ["", ""]
         }
     ]
 }
