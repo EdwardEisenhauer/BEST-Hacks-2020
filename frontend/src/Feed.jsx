@@ -1,11 +1,30 @@
 import * as Ons from "react-onsenui"
 
-import {useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 
 // TODO: implement getPosts
-function getPosts() {return Promise.reject()}
+function getPosts() {
+    return Promise.resolve({
+        "posts": [
+            {
+                id: 1,
+                title: "Post 1"
+            },
+            {
+                id: 2,
+                title: "Post 2"
+            },
+            {
+                id: 3,
+                title: "Post 3"
+            }
 
-function Feed({navigator}) {
+
+        ]
+    })
+}
+
+function Feed({ navigator }) {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
@@ -14,16 +33,22 @@ function Feed({navigator}) {
         })
     }, [])
 
-    return (<div>
+    return (<Ons.Page
+        renderToolbar={
+            () => <Ons.Toolbar>
+                <div className="center">Feed</div>
+            </Ons.Toolbar>
+        }>
         {posts.map((post) => (
             <Ons.Card
                 key={post.id}
                 onClick={() => {
-                    // TODO: implement postview and fix this
-                    navigator.pushPage({view: null, title: "Post", post});
+                    // TODO: implement navigator for this tab and  postview and fix this
                 }}>
                 <div className="title">{post.title}</div>
             </Ons.Card>
         ))}
-    </div>);
+    </Ons.Page>);
 }
+
+export default Feed;
