@@ -3,7 +3,7 @@ import * as Ons from "react-onsenui"
 
 import './App.css';
 
-import QuestList from "./QuestList"
+import QuestsTab from "./QuestsTab"
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
             position='bottom'
             renderTabs={(activeIndex, tabbar) => [
                 {
-                    content: <Ons.Page><QuestList /></Ons.Page >,
+                    content: <QuestsTab />,
                     tab: <Ons.Tab label="Quests" icon="md-check-all" />
                 },
 
