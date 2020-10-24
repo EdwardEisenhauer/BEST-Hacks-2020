@@ -3,7 +3,7 @@ import * as Ons from "react-onsenui"
 
 import './App.css';
 
-import QuestList from "./QuestList.js"
+import QuestList from "./QuestList"
 
 
 function App() {
