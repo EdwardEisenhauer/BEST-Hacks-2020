@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "type": "activity",
+      "user": "sergiusz",
+      "content": "posted a picture of his meal!"
+    },
+    {
+      "id": 2,
+      "type": "tip",
+      "tip_id": "1"
+    },
+    {
+      "id": 3,
+      "type": "quest",
+      "quest_id": "1"
+    },
+    {
+      "id": 4,
+      "type": "activity",
+      "user": "wojtek",
+      "content": "completed a quest!"
+    }
+  ]
+}
