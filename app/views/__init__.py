@@ -12,12 +12,12 @@ def index():
     return "witam swiat :))"
 
 
-@main_app.route('/<page>')
-def show(page):
-    try:
-        return render_template('pages/%s.html' % page)
-    except TemplateNotFound:
-        abort(404)
+# @main_app.route('/<page>')
+# def show(page):
+#     try:
+#         return render_template('pages/%s.html' % page)
+#     except TemplateNotFound:
+#         abort(404)
 
 
 from app.models.user import User

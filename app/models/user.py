@@ -16,13 +16,6 @@ class User(UserMixin, Base):
     last_login = Column(DateTime, index=False, unique=False,
                         nullable=True)  # TODO: set on login? or remove?
 
-    accomplishments = relationship(
-        'Accomplishment', backref='user', lazy=True)
-
-    # TODO: set user timezone from geoip on registration
-    timezone = Column(String(64), nullable=False)
-    start_of_day = Column(Integer, nullable=False)
-
     def set_password(self, password):
         self.password = generate_password_hash(password)
 
