@@ -46,7 +46,7 @@ function QuestList({navigator}) {
                 onClick={() => {
                     navigator.pushPage({view: QuestView, title: "Quest", quest});
                 }}>
-                <div class="title">{quest.title}<div style={{"float": "right"}}><Ons.Icon icon={quest.icon} /></div></div>
+                <div className="title">{quest.title}<div style={{"float": "right"}}><Ons.Icon icon={quest.icon} /></div></div>
                 {quest.img && <div><img src={quest.img} style={{width: "100%"}} /></div>}
             </Ons.Card>
         ))}

@@ -22,7 +22,7 @@ function Feed({navigator}) {
                     // TODO: implement postview and fix this
                     navigator.pushPage({view: null, title: "Post", post});
                 }}>
-                <div class="title">{post.title}</div>
+                <div className="title">{post.title}</div>
             </Ons.Card>
         ))}
     </div>);
