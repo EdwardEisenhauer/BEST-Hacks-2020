@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 
-import * as Ons from "react-onsenui";
+import * as Ons from "react-onsenui"
 
 function getQuest(id) {
     return fetch(`/api/v1/quests/${id}.json`).then(data => data.json())

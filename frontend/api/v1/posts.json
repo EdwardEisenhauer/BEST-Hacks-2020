@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "type": "activity"
+    },
+    {
+      "id": 2,
+      "type": "tip"
+    },
+    {
+      "id": 3,
+      "type": "task"
+    }
+  ]
+}
