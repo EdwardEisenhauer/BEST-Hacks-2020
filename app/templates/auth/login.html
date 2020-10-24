@@ -1,0 +1,13 @@
+{% extends "_skel.html" %}
+{% block title %}Log in{% endblock %}
+{% from "_formhelpers.html" import render_field %}
+{% block content %}
+<div class="section card">
+    <form method="POST" class="form form-narrow">
+        {{ form.csrf_token }}
+        {{ render_field(form.username) }}
+        {{ render_field(form.password) }}
+        {{ render_field(form.submit, False, class_="btn btn-blue btn-wide btn-center") }}
+    </form>
+</div>
+{% endblock %}

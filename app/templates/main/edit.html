@@ -1,0 +1,24 @@
+{% extends "_skel.html" %}
+{% block title %}{% if not day %}Edit{% else %}Add{% endif %} accomplishment{% endblock %}
+{% from "_formhelpers.html" import render_field %}
+{% block content %}
+{% if day %}
+<div class="section card">
+    <div class="text-xl text-center">
+        You're adding an accomplishment made on {{ day.pretty }}.
+    </div>
+</div>
+{% endif %}
+<div class="section card">
+    <form method="POST" class="form form-narrow" {% if day %}action="{{ url_for('main.add_day', day=day.url) }}"
+        {% endif %}>
+        {{ form.csrf_token }}
+        {{ render_field(form.text) }}
+        {{ render_field(form.difficulty, mb="mb-6", autocomplete="off") }}
+        <div class="text-center">
+            {{ render_field(form.submit, False, mb="mb-1", class_="btn btn-blue btn-center btn-wide") }}
+            <a href="{{ cancel }}" class="text-xs link">cancel</a>
+        </div>
+    </form>
+</div>
+{% endblock %}

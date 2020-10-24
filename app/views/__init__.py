@@ -26,10 +26,8 @@ from app.models.user import User
 @main_app.route('/users')
 def show_users():
     with scoped_session() as session:
-        # session.add(admin)
-        with scoped_session() as session:
-            users = session.query(User).all()
-            output_users = list()
-            for user in users:
-                output_users.append(user.email)
-            return jsonify(output_users)
+        users = session.query(User).all()
+        output_users = list()
+        for user in users:
+            output_users.append(user.username)
+        return jsonify(output_users)

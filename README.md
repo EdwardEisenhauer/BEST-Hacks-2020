@@ -3,6 +3,13 @@ Repository created for the first edition of BEST Hacks hackaton
 
 ## Deployment
 
+### venv
+```bash
+python3 -m venv venv
+source ./venv/bin/activate
+pip install -r requirements.txt
+```
+
 ### database
 ```bash
 docker run \
@@ -13,4 +20,15 @@ docker run \
   -e MYSQL_USER=user \
   -e MYSQL_PASSWORD=password \
   -d mariadb:10.3
+```
+
+### alembic
+```bash
+alembic upgrade head
+```
+
+### run
+```
+source ./venv/bin/activate
+python manage.py run
 ```

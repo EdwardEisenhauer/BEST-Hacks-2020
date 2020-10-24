@@ -1,0 +1,21 @@
+{% extends "_skel.html" %}
+{% from "_formhelpers.html" import render_field %}
+{% block title %}Delete accomplishment{% endblock %}
+{% block content %}
+<div class="text-center section card">
+    <p class="italic">
+        {{ accomplishment.text }}
+    </p>
+    <p class="mt-2 font-bold difficulty-{{ accomplishment.difficulty_class }}">({{ accomplishment.difficulty }}
+        XP)
+    </p>
+</div>
+<div class="text-center section card">
+    <h3 class="text-lg">Are you sure you want to remove this accomplishment?</h3>
+    <form class="mt-3" method="POST">
+        {{ form.csrf_token }}
+        {{ render_field(form.submit, label=False, mb="mb-2", class_="btn btn-red btn-wide btn-center") }}
+        <a href="{{ cancel }}" class="block text-xs link">cancel</a>
+    </form>
+</div>
+{% endblock %}
