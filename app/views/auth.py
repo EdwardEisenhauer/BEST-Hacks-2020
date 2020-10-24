@@ -31,11 +31,6 @@ class SignupForm(FlaskForm):
         validators=[DataRequired(), Length(min=2), Length(max=64)]
     )
 
-    tz = SelectField('Timezone', choices=list(map(lambda x: (x, x.replace("_", " ")), pytz.all_timezones)),
-                     validators=[
-                         DataRequired()
-                     ])
-
     password = PasswordField(
         'Password',
         validators=[
@@ -83,6 +78,7 @@ def register():
                 session.add(user)
                 session.commit()
                 login_user(user, remember=True)
+                print(user)
             except sqlalchemy.exc.IntegrityError as e:
                 session.rollback()
                 if "Duplicate" in str(e):
