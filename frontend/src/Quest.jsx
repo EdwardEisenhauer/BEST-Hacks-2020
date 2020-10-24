@@ -3,7 +3,9 @@ import * as Ons from "react-onsenui"
 import {useState, useEffect} from "react";
 
 function getQuest(id) {
-    return fetch(`/api/v1/quests/${id}.json`).then(data => data.json())
+    return fetch(`/api/v1/quests.json`).then(data => data.json()).then(data => ({
+        "quest": data.quests[id - 1]
+    }))
 }
 
 function Quest({route}) {
@@ -30,7 +32,7 @@ function Quest({route}) {
                 </div>
             </div> { /* TODO: Get title and category icon (some category -> icon name mapping?) from DB. */}
             <div className="content">
-                {questDetails.instruction}
+                {questDetails['additional note']}
                 {/* TODO: images with no link */}
                 {/* TODO: friend avatars */}
                 {questDetails.link && <a href={questDetails.link}><img
