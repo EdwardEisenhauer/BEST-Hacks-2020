@@ -1,7 +1,12 @@
 import * as Ons from "react-onsenui"
 
-function Feed({setRoute}) {
-    const [posts, setQuests] = useState([]);
+import {useState, useEffect} from "react";
+
+// TODO: implement getPosts
+function getPosts() {return Promise.reject()}
+
+function Feed({navigator}) {
+    const [posts, setPosts] = useState([]);
 
     useEffect(() => {
         getPosts().then((response) => {
@@ -10,11 +15,12 @@ function Feed({setRoute}) {
     }, [])
 
     return (<div>
-        {posts.map([post] => (
+        {posts.map((post) => (
             <Ons.Card
                 key={post.id}
                 onClick={() => {
-                    setRoute({ view: PostView, title: "Post", post });
+                    // TODO: implement postview and fix this
+                    navigator.pushPage({view: null, title: "Post", post});
                 }}>
                 <div class="title">{post.title}</div>
             </Ons.Card>
