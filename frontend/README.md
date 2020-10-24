@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Mock API
+This project includes a mock API,
+before following the rest of the instruction run:
+```
+python3 -m http.server
+```
+(in the "frontend" folder)
+and leave it running
+also, run `yarn install` before doing anything
+You have to install `yarn` first, though.
+
 ## Available Scripts
 
 In the project directory, you can run:

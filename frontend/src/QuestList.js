@@ -4,7 +4,7 @@ function getQuest(id) {
     return fetch(`/api/v1/quests/${id}.json`).then(data=>data.json())
 }
 
-function QuestView({route}) {
+function QuestView({route, setRoute}) {
     const quest = route.quest;
     const [questDetails, setQuestDetails] = useState(null);
 
@@ -19,6 +19,7 @@ function QuestView({route}) {
         {questDetails === null ? <h3>Loading...</h3> : (
             <p>{questDetails.instruction}</p>
         )}
+        <a onClick={()=>{setRoute({view: QuestList})}}>Back</a>
     </div>
 }
 
