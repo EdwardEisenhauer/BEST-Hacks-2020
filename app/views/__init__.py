@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, abort, jsonify
+from flask import Blueprint, render_template, abort, jsonify, send_from_directory
 from jinja2 import TemplateNotFound
 
 from app.database import scoped_session
@@ -12,12 +12,9 @@ def index():
     return "witam swiat :))"
 
 
-# @main_app.route('/<page>')
-# def show(page):
-#     try:
-#         return render_template('pages/%s.html' % page)
-#     except TemplateNotFound:
-#         abort(404)
+@main_app.route('/<path:path>')
+def send_file(path):
+    return send_from_directory('frontend', path)
 
 
 from app.models.user import User
