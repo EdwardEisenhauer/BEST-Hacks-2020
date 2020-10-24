@@ -1,7 +1,7 @@
-from flask import Blueprint, render_template, abort
+from flask import Blueprint, render_template, abort, jsonify
 from jinja2 import TemplateNotFound
 
-from app.database import Base
+from app.database import scoped_session
 
 main_app = Blueprint('main_app', __name__,
                      template_folder='templates')
@@ -20,13 +20,16 @@ def show(page):
         abort(404)
 
 
+from app.models.user import User
+
+
 @main_app.route('/users')
-def users():
-    from app.models.user import User
-    admin = User(username='admin', email='admin@example.com')
-    guest = User(username='guest', email='guest@example.com')
-
-    Base.session.add(admin)
-    Base.session.add(guest)
-
-    return "witam swiat :))"
+def show_users():
+    with scoped_session() as session:
+        # session.add(admin)
+        with scoped_session() as session:
+            users = session.query(User).all()
+            output_users = list()
+            for user in users:
+                output_users.append(user.email)
+            return jsonify(output_users)
