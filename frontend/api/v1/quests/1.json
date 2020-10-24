@@ -3,6 +3,12 @@
         "id": 1,
         "title": "Take a city bike!",
         "instruction": "It'll be fun.",
+        "img": "https://www.co-investor.com/en/_portfolio/port-logo-nextbike.jpg",
+        "icon": "fa-biking",
+        "friends": [
+            "",
+            ""
+        ],
         "link": "https://nextbike.pl"
     }
 }
