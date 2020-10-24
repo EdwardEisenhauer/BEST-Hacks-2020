@@ -27,3 +27,5 @@ function Feed({navigator}) {
         ))}
     </div>);
 }
+
+export default Feed

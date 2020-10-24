@@ -1,4 +1,6 @@
 import QuestList from "./QuestList"
+import Feed from "./Feed"
+import User from "./User"
 
 import * as Ons from "react-onsenui"
 
@@ -14,7 +16,8 @@ function QuestsTab() {
             }
         }
         initialRoute={{
-            view: QuestList
+            // view: QuestList
+            view: User
         }} />
 }
 
