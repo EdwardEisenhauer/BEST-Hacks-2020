@@ -1,0 +1,46 @@
+{
+    "quests": [
+        {
+            "id": 1,
+            "title": "Take a city bike!",
+            "img": "https://www.co-investor.com/en/_portfolio/port-logo-nextbike.jpg",
+            "icon": "fa-biking",
+            "friends": ["", ""]
+        },
+        {
+            "id": 2,
+            "title": "Is it burger time?",
+            "img": "https://ervegan.com/wp-content/uploads/2020/01/ervegan-logo-2020.jpg",
+            "icon": "fa-carrot",
+            "friends": ["", ""]
+        },
+        {
+            "id": 3,
+            "title": "Zrób własny przetwór",
+            "img": "https://www.wedrowkipokuchni.com.pl/wp-content/uploads/2016/07/ggg.jpg",
+            "icon": "fa-raspberry-pi",
+            "friends": ["", ""]
+        },
+        {
+            "id": 4,
+            "title": "Pij wodę z kranu",
+            "img": "http://www.zneutralizujchemie.pl/wp-content/uploads/2017/12/woda-z-kranu-min.jpg",
+            "icon": "fa-hand-holding-water",
+            "friends": ["", ""]
+        },
+        {
+            "id": 5,
+            "title": "Kup żywność od lokalnego rolnika",
+            "img": "https://i.pinimg.com/originals/c4/62/07/c46207717f84d562f7976c2fe1b453ff.jpg",
+            "icon": "fa-cow",
+            "friends": ["", ""]
+        },
+        {
+            "id": 6,
+            "title": "Kup żywność od lokalnego rolnika",
+            "img": "https://i.pinimg.com/originals/c4/62/07/c46207717f84d562f7976c2fe1b453ff.jpg",
+            "icon": "fa-cow",
+            "friends": ["", ""]
+        },
+    ]
+}
