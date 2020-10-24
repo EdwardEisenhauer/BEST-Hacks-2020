@@ -1,9 +1,10 @@
-import {useState} from "react";
+import { useState } from "react";
 import * as Ons from "react-onsenui"
 
 import './App.css';
 
 import QuestsTab from "./QuestsTab"
+import Feed from "./Feed"
 
 function App() {
     const [tabbarIndex, setTabbarIndex] = useState(0);
@@ -18,6 +19,11 @@ function App() {
                 {
                     content: <QuestsTab />,
                     tab: <Ons.Tab label="Quests" icon="md-check-all" />
+                },
+
+                {
+                    content: <Feed />,
+                    tab: <Ons.Tab label="Feed" icon="md-accounts-alt" />
                 },
 
                 {
