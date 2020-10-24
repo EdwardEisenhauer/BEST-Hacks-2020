@@ -16,8 +16,7 @@ function QuestsTab() {
             }
         }
         initialRoute={{
-            // view: QuestList
-            view: User
+            view: QuestList
         }} />
 }
 
