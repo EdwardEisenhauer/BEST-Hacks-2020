@@ -4,26 +4,45 @@
     <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
     <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
     <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <script src="scripts.js"></script>
+    <title>BestHacks</title>
 </head>
 <body>
-    <ons-page>
+
+    <ons-navigator swipeable id="myNavigator" page="quest_list.html"></ons-navigator>
+
+    <template id="quest_list.html">
+      <ons-page id="quest_list">
         <ons-toolbar>
-            <div class="center">Today Quests</div>
+          <div class="center">Today Quests</div>
         </ons-toolbar>
 
-        <ons-card>
-            <div class="title">Cook a vegan lunch! <ons-button onclick="alert('We are dying!!!')">Ok!</ons-button></div>
-            <div class="content">
-                Is it burger time?
-                <a href="https://ervegan.com/2016/08/burgery-z-cukinii/"><img src="https://ervegan.com/wp-content/uploads/2020/01/ervegan-logo-2020.jpg" style="width: 100%"></a>
-            </div>
-        </ons-card>
+            <ons-card>
+                <div class="title">Cook a vegan lunch!</div>
+                <div class="content">
+                    Is it burger time?
+                    <a href="https://ervegan.com/2016/08/burgery-z-cukinii/"><img src="https://ervegan.com/wp-content/uploads/2020/01/ervegan-logo-2020.jpg" style="width: 100%"></a>
+                </div>
+                <ons-button id="button-quest-vegan">Show me!</ons-button>
+            </ons-card>
 
-        <ons-card>
-            <div class="title">Take a city bike!</div>
-            <a href="https://nextbike.pl"><img src="https://www.co-investor.com/en/_portfolio/port-logo-nextbike.jpg" style="width: 100%"></a>
-        </ons-card>
-    </ons-page>
-<br>
+            <ons-card>
+                <div class="title">Take a city bike!</div>
+                <a href="https://nextbike.pl"><img src="https://www.co-investor.com/en/_portfolio/port-logo-nextbike.jpg" style="width: 100%"></a>
+                <ons-button id="quest-city-bike">Show me!</ons-button>
+            </ons-card>
+      </ons-page>
+    </template>
+
+    <template id="quest-vegan.html">
+      <ons-page id="quest-vegan">
+        <ons-toolbar>
+          <div class="left"><ons-back-button>Cook a vegan lunch!</ons-back-button></div>
+          <div class="center"></div>
+        </ons-toolbar>
+        <a href="https://ervegan.com/2016/08/burgery-z-cukinii/"><img src="https://ervegan.com/wp-content/uploads/2020/01/ervegan-logo-2020.jpg" style="width: 100%"></a>
+      </ons-page>
+    </template>
+
 </body>
 </html>
