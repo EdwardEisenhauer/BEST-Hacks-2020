@@ -1,5 +1,4 @@
 from manager import Manager
-from app import create_app
 
 manager = Manager()
 
@@ -7,6 +6,7 @@ manager = Manager()
 @manager.command
 def run():
     """ Starts server. """
+    from app import create_app
     create_app()
 
 
