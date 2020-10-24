@@ -1,7 +1,8 @@
 {
     "quest": {
         "id": 1,
-        "title": "quest a",
-        "instruction": "Zrób dobrze środowisku"
+        "title": "Take a city bike!",
+        "instruction": "It'll be fun.",
+        "link": "https://nextbike.pl"
     }
 }

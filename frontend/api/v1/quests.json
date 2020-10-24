@@ -2,15 +2,11 @@
     "quests": [
         {
             "id": 1,
-            "title": "quest a"
+            "title": "Take a city bike!"
         },
         {
             "id": 2,
-            "title": "quest b"
-        },
-        {
-            "id": 3,
-            "title": "quest c"
+            "title": "Is it burger time?"
         }
     ]
 }
