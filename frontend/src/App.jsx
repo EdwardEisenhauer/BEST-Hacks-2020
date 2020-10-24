@@ -4,10 +4,10 @@ import * as Ons from "react-onsenui"
 import './App.css';
 
 import QuestList from "./QuestList"
-
+import Quest from "./Quest";
 
 function App() {
-    const [route, setRoute] = useState({ view: QuestList, title: "Your Quests" }); // TODO: change this into an enum
+    const [route, setRoute] = useState({ view: Quest, title: "Your Quests" }); // TODO: change this into an enum
     return (
         <Ons.Page renderToolbar={() =>
             <Ons.Toolbar>
