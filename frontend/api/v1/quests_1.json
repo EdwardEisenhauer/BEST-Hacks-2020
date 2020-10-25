@@ -497,6 +497,6 @@
             "icon": "fa-user-friends",
             "additional note": "(...tylko bez kłótni :( )",
             "friends": ["", ""]
-        },
+        }
     ]
 }
