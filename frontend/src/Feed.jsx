@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 // TODO: implement getPosts
 function getPosts() {
-    return fetch('/api/v1/posts.json').then(data => data.json())
+    return fetch('/api/posts').then(data => data.json())
 }
 
 function Feed({ navigator }) {
@@ -23,16 +23,16 @@ function Feed({ navigator }) {
             </Ons.Toolbar>
         }>
         {posts.map((post) => <Ons.Card
-                key={post.id}
-                onClick={() => {
-                    // TODO: implement navigator for this tab and  postview and fix this
-                }}>
-            { post.type === "activity" ?
+            key={post.id}
+            onClick={() => {
+                // TODO: implement navigator for this tab and  postview and fix this
+            }}>
+            {post.type === "activity" ?
                 <div className="title">{post.user + " " + post.title}</div>
                 :
                 <div className="title">{post.title}</div>
             }
-            </Ons.Card>)}
+        </Ons.Card>)}
     </Ons.Page>;
 }
 
