@@ -104,7 +104,7 @@ def login():
                 return render_template('auth/login.html', form=form)
 
             return redirect('/')
-    return render_template('auth/login.html', form=form)
+    return render_template('login.html', form=form)
 
 
 @blueprint.route('/logout', methods=['GET', 'POST'])
