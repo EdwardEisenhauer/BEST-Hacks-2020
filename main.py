@@ -65,7 +65,7 @@ def rest_register():
     if username is None or password is None:
         abort(400)  # missing arguments
     if User.query.filter_by(username=username).first() is not None:
-        abort(400)  # existing user
+        abort(422)  # existing user
     user = User(username=username)
     user.hash_password(password)
     db.session.add(user)

@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 import 'onsenui/css/onsenui.css';
 import 'onsenui/css/onsen-css-components.css';
 
+import ons from 'onsenui'
+ons.platform.select('android')
 ReactDOM.render(
   <App />,
   document.getElementById('root')
