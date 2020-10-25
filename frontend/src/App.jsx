@@ -39,20 +39,20 @@ function App() {
                 renderTabs={(activeIndex, tabbar) => [
                     {
                         content: <QuestsTab />,
-                        tab: <Ons.Tab label="Quests" icon="md-check-all" />
+                        tab: <Ons.Tab label="Zadania" icon="md-check-all" />
                     },
 
                     {
                         content: <FeedTab />,
-                        tab: <Ons.Tab label="Feed" icon="md-accounts-alt" />
+                        tab: <Ons.Tab label="Aktywność" icon="md-accounts-alt" />
                     }, {
                         content: <LeaderboardTab />,
-                        tab: <Ons.Tab label="Leaderboard" icon="md-globe" />
+                        tab: <Ons.Tab label="Ranking" icon="md-globe" />
                     },
 
                     {
                         content: <Ons.Page><h1>kek</h1></Ons.Page>,
-                        tab: <Ons.Tab label="Settings" icon="md-settings" />
+                        tab: <Ons.Tab label="Ustawienia" icon="md-settings" />
                     }
                 ]} /></UserContext.Provider>
             : (checkingLogin ? null : <Auth setUser={setUser} />)

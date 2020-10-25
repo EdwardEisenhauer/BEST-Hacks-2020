@@ -59,7 +59,7 @@ function Feed({ navigator }) {
     return <Ons.Page
         renderToolbar={
             () => <Ons.Toolbar>
-                <div className="center">Feed</div>
+                <div className="center">Aktywność</div>
             </Ons.Toolbar>
         }>
         {posts.map((post) => <Ons.Card

@@ -3,7 +3,7 @@ import * as Ons from "react-onsenui"
 function Leaderboard() {
     return <Ons.Page renderToolbar={() =>
         <Ons.Toolbar>
-            <div className="center">Leaderboard</div>
+            <div className="center">Ranking</div>
         </Ons.Toolbar>
     }>
         <Ons.Card>
