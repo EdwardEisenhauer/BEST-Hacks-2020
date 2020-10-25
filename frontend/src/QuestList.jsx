@@ -4,7 +4,7 @@ import * as Ons from "react-onsenui"
 
 import Quest from "./Quest"
 import CardActions from "./CardActions"
-import QuestMeta from "./QuestCategory"
+import QuestMeta from "./QuestMeta"
 
 
 function getQuests() {

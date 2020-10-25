@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 
 
 import CardActions from "./CardActions"
-import QuestMeta from "./QuestCategory"
+import QuestMeta from "./QuestMeta"
 
 function PostQuest({ route }) {
     return <Ons.Page renderToolbar={() =>

@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 
 import CardActions from "./CardActions"
 import PostQuest from "./PostQuest"
-import QuestMeta from "./QuestCategory"
+import QuestMeta from "./QuestMeta"
 
 function getQuest(id) {
     return fetch(`/api/v1/quests.json`).then(data => data.json()).then(data => ({
