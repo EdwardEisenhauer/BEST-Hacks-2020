@@ -1,48 +1,48 @@
 {
-    "Czy wiedziałeś, że": [
+    "tips": [
         {
             "id": 1,
-            "title": "wody z mycia warzyw możesz użyć do podlania roślin?",
+            "title": "wody z mycia warzyw możesz użyć do podlania roślin?"
         },
         {
             "id": 2,
-            "title": "gotując z przykrywką zaoszczędzasz prąd i czas?",
+            "title": "gotując z przykrywką zaoszczędzasz prąd i czas?"
         },
         {
             "id": 3,
-            "title": "zostawiając otwarte drzwi w trakcie brania prysznica dogrzewasz przedpokój?",
+            "title": "zostawiając otwarte drzwi w trakcie brania prysznica dogrzewasz przedpokój?"
         },
         {
             "id": 4,
-            "title": "otrzepując ręce przed użyciem ręcznika papierowego, zaoszczędzisz papier?",
+            "title": "otrzepując ręce przed użyciem ręcznika papierowego, zaoszczędzisz papier?"
         },
         {
             "id": 5,
-            "title": "twoja zamrażarka zużywa więcej energii, kiedy jest pusta? Mroź mięso, warzywa i gotowe dania!",
+            "title": "twoja zamrażarka zużywa więcej energii, kiedy jest pusta? Mroź mięso, warzywa i gotowe dania!"
         },
         {
             "id": 6,
-            "title": "podlewając rośliny rano lub wieczorem, mniej wody odparuje, niż gdybyś podlał je w innych porach?",
+            "title": "podlewając rośliny rano lub wieczorem, mniej wody odparuje, niż gdybyś podlał je w innych porach?"
         },
         {
             "id": 7,
-            "title": "torby do popcornu wyłożone są kwasem, który jest szkodliwy dla Ciebie jak i dla powietrza?",
+            "title": "torby do popcornu wyłożone są kwasem, który jest szkodliwy dla Ciebie jak i dla powietrza?"
         },
         {
             "id": 8,
-            "title": "rezygnując ze spożywania mięsa, spada ryzyko wystąpienia przewlekłych chorób, takich jak rak, choroby serca, cukrzyca i otyłość?",
+            "title": "rezygnując ze spożywania mięsa, spada ryzyko wystąpienia przewlekłych chorób, takich jak rak, choroby serca, cukrzyca i otyłość?"
         },
         {
             "id": 9,
-            "title": "używając myjni, zamiast mycia samochodu pod domem, zużywasz nawet do połowy mniej wody?",
+            "title": "używając myjni, zamiast mycia samochodu pod domem, zużywasz nawet do połowy mniej wody?"
         },
         {
             "id": 10,
-            "title": "większość świec zapachowych uwalniają do powietrza chemikalia, a parafina i knot są głównymi źródłami sadzy w otoczeniu? Kupuj świece tylko z naturalnego wosku!",
+            "title": "większość świec zapachowych uwalniają do powietrza chemikalia, a parafina i knot są głównymi źródłami sadzy w otoczeniu? Kupuj świece tylko z naturalnego wosku!"
         },
         {
             "id": 11,
-            "title": "przeciętnie każdy z nas wyrzuca 1/3 zakupionych produktów spożywczych? Kupuj z głową!",
+            "title": "przeciętnie każdy z nas wyrzuca 1/3 zakupionych produktów spożywczych? Kupuj z głową!"
         }
     ]
 }
