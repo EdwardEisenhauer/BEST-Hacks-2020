@@ -5,6 +5,7 @@ import './App.css';
 
 import QuestsTab from "./QuestsTab"
 import FeedTab from "./FeedTab"
+import LeaderboardTab from "./LeaderboardTab"
 import Auth, { UserContext } from "./Auth"
 
 
@@ -44,6 +45,9 @@ function App() {
                     {
                         content: <FeedTab />,
                         tab: <Ons.Tab label="Feed" icon="md-accounts-alt" />
+                    }, {
+                        content: <LeaderboardTab />,
+                        tab: <Ons.Tab label="Leaderboard" icon="md-globe" />
                     },
 
                     {
