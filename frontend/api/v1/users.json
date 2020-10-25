@@ -2,31 +2,35 @@
   "users" : [
     {
       "id": 1,
-      "username": "sergiusz",
+      "name": "sergiusz",
       "friends": [],
       "quests": [1],
-      "posts": []
+      "posts": [],
+      "points": 12
     },
     {
       "id": 2,
-      "username": "wojtek",
+      "name": "wojtek",
       "friends": [],
       "quests": [],
-      "posts": []
+      "posts": [],
+      "points": 13
     },
     {
       "id": 3,
-      "username": "kacper",
+      "name": "kacper",
       "friends": [],
       "quests": [],
-      "posts": []
+      "posts": [],
+      "points": 3
     },
     {
       "id": 4,
-      "username": "julia",
+      "name": "julia",
       "friends": [],
       "quests": [],
-      "posts": []
+      "posts": [],
+      "points": 21
     }
   ]
 }
