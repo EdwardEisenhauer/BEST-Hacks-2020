@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 
 import CardActions from "./CardActions"
 import PostQuest from "./PostQuest"
+import QuestMeta from "./QuestMeta"
 
 function getQuest(id) {
     return fetch(`/api/v1/quests.json`).then(data => data.json()).then(data => ({
@@ -30,12 +31,9 @@ function Quest({ route, navigator }) {
         {questDetails == null ? <h1>Loading...</h1> :
             (<>
                 <Ons.Card style={{ padding: "1em" }}>
-                    <div style={{ color: "#555", fontSize: "0.8em" }}>
-                        <span style={{ padding: ".1em", paddingRight: ".5em" }}>{questDetails.icon && <Ons.Icon icon={questDetails.icon} />}</span>
-                        <span>{questDetails.category}</span>
-                    </div>
+                    <QuestMeta icon={questDetails.icon} category={questDetails.category} />
                     <div className="title">
-                        <h1>{questDetails.title}</h1>
+                        {questDetails.title}
                     </div>
                     {questDetails.img && <div className="image" style={{ paddingBottom: "1em" }}>
                         <img style={{ width: "100%", borderRadius: 5 }} src={questDetails.img}></img>
@@ -53,7 +51,7 @@ function Quest({ route, navigator }) {
                         <a id="button-quest-accept" onClick={() => {
                             navigator.pushPage({ view: PostQuest, quest: questDetails })
                         }}>
-                            Mark as done
+                            Wykonane
                             </a>
                     </CardActions>
 
@@ -68,3 +66,5 @@ function Quest({ route, navigator }) {
 }
 
 export default Quest
+
+

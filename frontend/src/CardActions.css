@@ -1,0 +1,10 @@
+.CardActions div {
+  display: flex;
+}
+.CardActions div * {
+  display: block;
+}
+
+.CardActions div.left * {
+  padding-right: 0.5em;
+}
