@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 
 
 import CardActions from "./CardActions"
-import QuestCategory from "./QuestCategory"
+import QuestMeta from "./QuestCategory"
 
 function PostQuest({ route }) {
     return <Ons.Page renderToolbar={() =>
@@ -13,7 +13,7 @@ function PostQuest({ route }) {
             <div className="center">Pochwal się</div>
         </Ons.Toolbar>
     }><Ons.Card>
-            <QuestCategory icon={route.quest.icon} category={route.quest.category} />
+            <QuestMeta icon={route.quest.icon} category={route.quest.category} />
             <div style={{ fontSize: "0.8em", color: "#333", paddingBottom: "0.3em", paddingTop: "0.5em" }}>Wykonałem zadanie:</div>
             <div className="title" style={{ paddingBottom: "0.0em" }}>
                 {route.quest.title}

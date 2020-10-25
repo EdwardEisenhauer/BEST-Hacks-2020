@@ -4,7 +4,7 @@ import * as Ons from "react-onsenui"
 
 import Quest from "./Quest"
 import CardActions from "./CardActions"
-import QuestCategory from "./QuestCategory"
+import QuestMeta from "./QuestCategory"
 
 
 function getQuests() {
@@ -45,7 +45,7 @@ function QuestList({ navigator }) {
                 onClick={() => {
                     navigator.pushPage({ view: Quest, quest });
                 }}>
-                <QuestCategory icon={quest.icon} category={quest.category} />
+                <QuestMeta icon={quest.icon} category={quest.category} xp={15} />
                 <div className="title">
                     {quest.title}
                 </div>

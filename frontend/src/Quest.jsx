@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 
 import CardActions from "./CardActions"
 import PostQuest from "./PostQuest"
-import QuestCategory from "./QuestCategory"
+import QuestMeta from "./QuestCategory"
 
 function getQuest(id) {
     return fetch(`/api/v1/quests.json`).then(data => data.json()).then(data => ({
@@ -31,7 +31,7 @@ function Quest({ route, navigator }) {
         {questDetails == null ? <h1>Loading...</h1> :
             (<>
                 <Ons.Card style={{ padding: "1em" }}>
-                    <QuestCategory icon={questDetails.icon} category={questDetails.category} />
+                    <QuestMeta icon={questDetails.icon} category={questDetails.category} />
                     <div className="title">
                         {questDetails.title}
                     </div>
