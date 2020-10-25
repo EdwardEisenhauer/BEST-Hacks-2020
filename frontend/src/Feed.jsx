@@ -1,5 +1,6 @@
 import * as Ons from "react-onsenui"
 
+import Quest from "./Quest"
 import CardActions from "./CardActions"
 
 import { useState, useEffect } from "react";
@@ -38,6 +39,13 @@ function renderPost(post) {
     }
 }
 
+function linkFor(post) {
+    switch (post.type) {
+        case "quest":
+            return { view: Quest, quest: post.quest }
+    }
+}
+
 function Feed({ navigator }) {
     const [posts, setPosts] = useState([]);
 
@@ -65,7 +73,7 @@ function Feed({ navigator }) {
             <CardActions left={<>
                 <Ons.Icon icon="md-thumb-up" size={24} />
             </>}>
-                <a>Więcej...</a>
+                <a onClick={() => { navigator.pushPage(linkFor(post)) }}>Więcej...</a>
             </CardActions>
         </Ons.Card>)}
     </Ons.Page>;

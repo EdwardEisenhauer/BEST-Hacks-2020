@@ -55,6 +55,7 @@ function Quest({ route, navigator }) {
                     </CardActions>
 
                 </Ons.Card>
+                {console.log(questDetails, "AAAA")}
                 <Ons.Card>
                     <div style={{
                         paddingBottom: ".4em",
@@ -63,15 +64,19 @@ function Quest({ route, navigator }) {
                         fontSize: "0.9em",
                         color: "#222"
                     }}>Znajomi, którzy ukończyli to zadanie:</div>
-                    {questDetails.users.map(user => (
-                        <div><img src={'/api/v1/avatars/' + user.name + '.jpeg'} style={{
-                            borderRadius: 5,
-                            "width": "2.5em",
-                            marginLeft: "0em",
-                            marginTop: ".3em"
-                        }} alt={user.name} /></div>
-                    ))
-                    }
+                    <div style={{ display: "flex" }}>
+                        {questDetails.users.map(user => (
+                            <div>
+                                <img src={'/avatars/' + user + '.jpeg'} style={{
+                                    borderRadius: 5,
+                                    "width": "2.5em",
+                                    marginLeft: "0.4em",
+                                    marginTop: ".3em",
+                                    marginRight: "0.2em"
+                                }} alt={user} />
+                            </div>
+                        ))}
+                    </div>
                     { /* Add href to Users' profiles */}
                 </Ons.Card>
             </>)

@@ -4,7 +4,7 @@ import * as Ons from "react-onsenui"
 import './App.css';
 
 import QuestsTab from "./QuestsTab"
-import Feed from "./Feed"
+import FeedTab from "./FeedTab"
 import Auth, { UserContext } from "./Auth"
 
 
@@ -35,7 +35,7 @@ function App() {
                     },
 
                     {
-                        content: <Feed />,
+                        content: <FeedTab />,
                         tab: <Ons.Tab label="Feed" icon="md-accounts-alt" />
                     },
 
