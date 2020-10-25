@@ -4,23 +4,30 @@
       "id": 1,
       "type": "activity",
       "user": "sergiusz",
-      "content": "posted a picture of his meal!"
+      "title": "posted a picture of his meal!"
     },
     {
       "id": 2,
       "type": "tip",
+      "title": "Did you know that...",
       "tip_id": "1"
     },
     {
-      "id": 3,
-      "type": "quest",
-      "quest_id": "1"
-    },
+            "id": 1,
+            "title": "Upiecz ciasteczka, zamiast kupić w opakowaniu!",
+            "points": 8,
+            "category": "Żywienie",
+            "img": "https://images-gmi-pmc.edge-generalmills.com/087d17eb-500e-4b26-abd1-4f9ffa96a2c6.jpg",
+            "icon": "fa-utensils",
+            "additional note": "(PRZEPIS? >KLIKNIJ TU!< )",
+            "link": "https://www.domowe-wypieki.pl/przepisy/ciasteczka",
+            "friends": ["", ""]
+        },
     {
       "id": 4,
       "type": "activity",
       "user": "wojtek",
-      "content": "completed a quest!"
+      "title": "completed a quest!"
     }
   ]
 }

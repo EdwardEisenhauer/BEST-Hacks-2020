@@ -29,7 +29,7 @@ function QuestList({ navigator }) {
 
     return (<Ons.Page renderToolbar={() =>
         <Ons.Toolbar>
-            <div class="center">Environmental Quest</div>
+            <div className="center">Environmental Quest</div>
         </Ons.Toolbar>
     }>
         <div style={{ paddingLeft: "1em", paddingRight: "1em", paddingTop: "1em", textAlign: "center" }}>

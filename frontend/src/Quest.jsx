@@ -1,8 +1,9 @@
 import * as Ons from "react-onsenui"
 
-import { useState, useEffect } from "react";
+import { useState, useEffect } from "react"
 
 import CardActions from "./CardActions"
+import PostQuest from "./PostQuest"
 
 function getQuest(id) {
     return fetch(`/api/v1/quests.json`).then(data => data.json()).then(data => ({
@@ -23,7 +24,7 @@ function Quest({ route, navigator }) {
     return <Ons.Page renderToolbar={() =>
         <Ons.Toolbar>
             <Ons.BackButton />
-            <div class="center">Quest</div>
+            <div className="center">Quest</div>
         </Ons.Toolbar>
     }>
         {questDetails == null ? <h1>Loading...</h1> :
@@ -50,7 +51,7 @@ function Quest({ route, navigator }) {
 
                     <CardActions>
                         <a id="button-quest-accept" onClick={() => {
-                            navigator.pushPage({ view: null, quest: questDetails })
+                            navigator.pushPage({ view: PostQuest, quest: questDetails })
                         }}>
                             Mark as done
                             </a>

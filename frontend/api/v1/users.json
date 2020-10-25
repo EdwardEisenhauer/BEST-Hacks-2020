@@ -1,0 +1,32 @@
+{
+  "users" : [
+    {
+      "id": 1,
+      "username": "sergiusz",
+      "friends": [],
+      "quests": [],
+      "posts": []
+    },
+    {
+      "id": 2,
+      "username": "wojtek",
+      "friends": [],
+      "quests": [],
+      "posts": []
+    },
+    {
+      "id": 3,
+      "username": "kacper",
+      "friends": [],
+      "quests": [],
+      "posts": []
+    },
+    {
+      "id": 4,
+      "username": "julia",
+      "friends": [],
+      "quests": [],
+      "posts": []
+    }
+  ]
+}

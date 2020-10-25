@@ -4,24 +4,7 @@ import { useState, useEffect } from "react";
 
 // TODO: implement getPosts
 function getPosts() {
-    return Promise.resolve({
-        "posts": [
-            {
-                id: 1,
-                title: "Post 1"
-            },
-            {
-                id: 2,
-                title: "Post 2"
-            },
-            {
-                id: 3,
-                title: "Post 3"
-            }
-
-
-        ]
-    })
+    return fetch('/api/v1/posts.json').then(data => data.json())
 }
 
 function Feed({ navigator }) {
@@ -33,22 +16,24 @@ function Feed({ navigator }) {
         })
     }, [])
 
-    return (<Ons.Page
+    return <Ons.Page
         renderToolbar={
             () => <Ons.Toolbar>
                 <div className="center">Feed</div>
             </Ons.Toolbar>
         }>
-        {posts.map((post) => (
-            <Ons.Card
+        {posts.map((post) => <Ons.Card
                 key={post.id}
                 onClick={() => {
                     // TODO: implement navigator for this tab and  postview and fix this
                 }}>
+            { post.type === "activity" ?
+                <div className="title">{post.user + " " + post.title}</div>
+                :
                 <div className="title">{post.title}</div>
-            </Ons.Card>
-        ))}
-    </Ons.Page>);
+            }
+            </Ons.Card>)}
+    </Ons.Page>;
 }
 
 export default Feed;
