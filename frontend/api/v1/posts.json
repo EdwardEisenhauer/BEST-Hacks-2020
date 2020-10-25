@@ -4,7 +4,7 @@
       "id": 1,
       "type": "activity",
       "user": "sergiusz",
-      "content": "posted a picture of his meal!"
+      "title": "posted a picture of his meal!"
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@
       "id": 4,
       "type": "activity",
       "user": "wojtek",
-      "content": "completed a quest!"
+      "title": "completed a quest!"
     }
   ]
 }

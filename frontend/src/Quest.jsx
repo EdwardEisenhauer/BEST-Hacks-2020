@@ -1,6 +1,7 @@
 import * as Ons from "react-onsenui"
 
 import {useState, useEffect} from "react";
+import PostQuest from "./PostQuest";
 
 function getQuest(id) {
     return fetch(`/api/v1/quests.json`).then(data => data.json()).then(data => ({
@@ -8,7 +9,7 @@ function getQuest(id) {
     }))
 }
 
-function Quest({route}) {
+function Quest({route, navigator}) {
     const quest = route.quest;
     const [questDetails, setQuestDetails] = useState(null);
     console.log("QV", route)
@@ -40,7 +41,11 @@ function Quest({route}) {
                     alt={questDetails.alt} /></a>}
             Friends list:<br />
                 <img src={"https://avatars0.githubusercontent.com/u/25778208?s=460&u=0333a8b6bdcff8a8ad623cde86b767515513b09a&v=4"} style={{"width": "10%"}} alt={"Sergiusz"} /> { /* Add href to Users' profiles */}
-                <div style={{"float": "right"}}><Ons.Button id="button-quest-accept">Let{"'"}s do it!</Ons.Button></div>
+                <div style={{"float": "right"}}><Ons.Button id="button-quest-accept" onClick={
+                    () => {
+                        navigator.pushPage({view: PostQuest, quest: questDetails})
+                    }
+                }>Done!</Ons.Button></div>
             </div>
         </Ons.Card>}
     </Ons.Page >

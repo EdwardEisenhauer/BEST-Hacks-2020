@@ -4,24 +4,7 @@ import { useState, useEffect } from "react";
 
 // TODO: implement getPosts
 function getPosts() {
-    return Promise.resolve({
-        "posts": [
-            {
-                id: 1,
-                title: "Post 1"
-            },
-            {
-                id: 2,
-                title: "Post 2"
-            },
-            {
-                id: 3,
-                title: "Post 3"
-            }
-
-
-        ]
-    })
+    return fetch('/api/v1/posts.json').then(data => data.json())
 }
 
 function Feed({ navigator }) {
