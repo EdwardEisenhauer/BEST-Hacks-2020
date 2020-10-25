@@ -14,13 +14,14 @@ function PostQuest({route}) {
             </div>
         </div>
         <Ons.Input size={"140"} type={"text"} placeholder={"Share your thoughts with friends!"}/>
-        <Ons.Icon icon={"fa-camera"}/> {/* TODO: Add a photo when onclick */}
-        <Ons.Icon icon={"fa-user-plus"}/> {/* TODO: Add a friend when onclick */}
+        <br/><br/><br/>
+        <Ons.Icon icon={"fa-camera"} size={30}/> {/* TODO: Add a photo when onclick */}
+        <Ons.Icon icon={"fa-user-plus"} size={30}/> {/* TODO: Add a friend when onclick */}
         <div style={{"float": "right"}}><Ons.Button id="button-post-publish" onClick={
                     () => {
                         /* Add post to database */
                     }
-                }>Publish!</Ons.Button></div>
+                }>Publish!</Ons.Button></div> {/* Force the button to be a part of the Card */}
         </Ons.Card>
     </Ons.Page>
 }

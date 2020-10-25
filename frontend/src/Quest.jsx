@@ -22,7 +22,7 @@ function Quest({route, navigator}) {
     return <Ons.Page renderToolbar={() =>
         <Ons.Toolbar>
             <Ons.BackButton />
-            <div class="center">Quest</div>
+            <div className="center">Quest</div>
         </Ons.Toolbar>
     }>
         {questDetails == null ? <h1>Loading...</h1> : <Ons.Card>
