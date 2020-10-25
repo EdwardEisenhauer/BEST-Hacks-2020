@@ -4,6 +4,7 @@ import * as Ons from "react-onsenui"
 
 import Quest from "./Quest"
 import CardActions from "./CardActions"
+import QuestCategory from "./QuestCategory"
 
 
 function getQuests() {
@@ -44,8 +45,10 @@ function QuestList({ navigator }) {
                 onClick={() => {
                     navigator.pushPage({ view: Quest, quest });
                 }}>
-                <div className="title" style={{ display: "flex", justifyContent: "space-between", paddingBottom: "0.2em" }}>
-                    <div>{quest.title}</div><div style={{ paddingLeft: "0.2em" }}><Ons.Icon icon={quest.icon} /></div></div>
+                <QuestCategory icon={quest.icon} category={quest.category} />
+                <div className="title">
+                    {quest.title}
+                </div>
                 {quest.img && <div><img src={quest.img} style={{ width: "100%", borderRadius: 5 }} /></div>}
                 <CardActions>
                     <a>Szczegóły</a>
