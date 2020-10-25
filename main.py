@@ -93,6 +93,7 @@ def rest_login():
 @login_required
 def rest_logout():
     logout_user()
+    return "ok"
 
 
 ###

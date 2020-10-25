@@ -51,7 +51,7 @@ function App() {
                     },
 
                     {
-                        content: <Ons.Page><h1>kek</h1></Ons.Page>,
+                        content: <Ons.Page><h1 onClick={() => { fetch('/api/access/logout').then(() => setUser(null)) }}>kek</h1></Ons.Page>,
                         tab: <Ons.Tab label="Ustawienia" icon="md-settings" />
                     }
                 ]} /></UserContext.Provider>
