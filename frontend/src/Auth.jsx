@@ -1,5 +1,12 @@
 import * as Ons from "react-onsenui"
-import { useState, useEffect } from "react"
+import React, { useState, useEffect, useContext } from "react"
+import User from "./User";
+
+export const UserContext = React.createContext(null)
+export function useUser() {
+    return useContext(UserContext)
+}
+
 
 function Auth({ setUser }) {
     const [tabbarIndex, setTabbarIndex] = useState(0);

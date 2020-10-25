@@ -5,11 +5,13 @@ import './App.css';
 
 import QuestsTab from "./QuestsTab"
 import Feed from "./Feed"
-import Auth from "./Auth"
+import Auth, { UserContext } from "./Auth"
+
 
 function App() {
     const [tabbarIndex, setTabbarIndex] = useState(0);
     const [user, setUser] = useState(null);
+
 
     useEffect(() => {
         if (user == null) fetch("/api/user/me").then((response) => {
@@ -22,7 +24,7 @@ function App() {
 
     return (
         user != null
-            ? <Ons.Tabbar
+            ? <UserContext.Provider value={user}><Ons.Tabbar
                 onPreChange={(hmm) => console.log(hmm) || setTabbarIndex(hmm.index)}
                 index={tabbarIndex}
                 position='bottom'
@@ -41,7 +43,7 @@ function App() {
                         content: <Ons.Page><h1>kek</h1></Ons.Page>,
                         tab: <Ons.Tab label="Settings" icon="md-settings" />
                     }
-                ]} />
+                ]} /></UserContext.Provider>
             : <Auth setUser={setUser} />
     );
 }

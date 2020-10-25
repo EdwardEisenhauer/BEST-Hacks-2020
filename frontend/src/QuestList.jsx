@@ -1,10 +1,12 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, useContext } from "react"
 
 import * as Ons from "react-onsenui"
 
 import Quest from "./Quest"
 import CardActions from "./CardActions"
 import QuestMeta from "./QuestMeta"
+
+import { useUser } from "./Auth"
 
 
 function getQuests() {
@@ -20,6 +22,7 @@ function getQuests() {
 }
 
 function QuestList({ navigator }) {
+    const user = useUser()
     const [quests, setQuests] = useState([]);
     console.log(navigator)
     useEffect(() => {
@@ -34,7 +37,7 @@ function QuestList({ navigator }) {
         </Ons.Toolbar>
     }>
         <div style={{ paddingLeft: "1em", paddingRight: "1em", paddingTop: "1em", textAlign: "center" }}>
-            <h1>Cześć, Stefan!</h1>
+            <h1>Cześć, {user.name}!</h1>
             <h3 style={{ fontWeight: "bold" }}>Zadania na dziś:</h3>
         </div>
 
