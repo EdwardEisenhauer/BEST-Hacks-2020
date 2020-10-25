@@ -57,27 +57,36 @@ function Quest({ route, navigator }) {
                 </Ons.Card>
                 {console.log(questDetails, "AAAA")}
                 <Ons.Card>
-                    <div style={{
-                        paddingBottom: ".4em",
-                        paddingTop: ".2em",
-                        fontWeight: "bold",
-                        fontSize: "0.9em",
-                        color: "#222"
-                    }}>Znajomi, którzy ukończyli to zadanie:</div>
-                    <div style={{ display: "flex" }}>
-                        {questDetails.users.map(user => (
-                            <div>
-                                <img src={'/avatars/' + user + '.jpeg'} style={{
-                                    borderRadius: 5,
-                                    "width": "2.5em",
-                                    marginLeft: "0.4em",
-                                    marginTop: ".3em",
-                                    marginRight: "0.2em"
-                                }} alt={user} />
-                            </div>
-                        ))}
-                    </div>
-                    { /* Add href to Users' profiles */}
+                    {questDetails.users.filter(el => (el.length > 0)).length > 0 ? <>
+                        <div style={{
+                            paddingBottom: ".4em",
+                            paddingTop: ".2em",
+                            fontWeight: "bold",
+                            fontSize: "0.9em",
+                            color: "#222"
+                        }}>Znajomi, którzy ukończyli to zadanie:</div>
+                        <div style={{ display: "flex" }}>
+                            {questDetails.users.map(user => (
+                                <div>
+                                    <img src={'/avatars/' + user + '.jpeg'} style={{
+                                        borderRadius: 5,
+                                        "width": "2.5em",
+                                        marginLeft: "0.4em",
+                                        marginTop: ".3em",
+                                        marginRight: "0.2em"
+                                    }} alt={user} />
+                                </div>
+                            ))}
+                            { /* Add href to Users' profiles */}
+                        </div>
+                    </> : <><div style={{ textAlign: "center" }} >Żaden z twoich znajomych nie ukończył jeszcze tego zadania.</div>
+                            <div style={{
+                                textAlign: "center",
+                                paddingTop: ".7em",
+                                fontWeight: "bold",
+                                fontSize: "0.9em",
+                                color: "#222"
+                            }}>Bądź pierwszy!</div></>}
                 </Ons.Card>
             </>)
         }
