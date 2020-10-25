@@ -10,8 +10,8 @@ import { useUser } from "./Auth"
 
 
 function getQuests() {
-    return fetch('/api/v1/quests.json').then(data => data.json()).then(data => ({
-        "quests": [
+    return fetch('/api/quests').then(data => data.json()).then(data => ({
+        "quests": [ // TODO_DEMO: randomize
             data.quests[0],
             data.quests[10],
             data.quests[20],

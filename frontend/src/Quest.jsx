@@ -8,9 +8,7 @@ import QuestMeta from "./QuestMeta"
 import getUser from "./User"
 
 function getQuest(id) {
-    return fetch(`/api/v1/quests.json`).then(data => data.json()).then(data => ({
-        "quest": data.quests[id - 1]
-    }))
+    return fetch(`/api/quest/${id}`).then(data => data.json())
 }
 
 function Quest({ route, navigator }) {
@@ -37,7 +35,7 @@ function Quest({ route, navigator }) {
                         {questDetails.title}
                     </div>
                     {questDetails.img && <div className="image" style={{ paddingBottom: "1em" }}>
-                        <img style={{width: "100%", borderRadius: 5}} src={questDetails.img}/>
+                        <img style={{ width: "100%", borderRadius: 5 }} src={questDetails.img} />
                     </div>}
                     <div className="content" style={{ paddingBottom: ".7em" }}>
                         {questDetails['additional note']}
@@ -72,7 +70,7 @@ function Quest({ route, navigator }) {
                             marginLeft: "0em",
                             marginTop: ".3em"
                         }} alt={user.name} /></div>
-                        ))
+                    ))
                     }
                     { /* Add href to Users' profiles */}
                 </Ons.Card>
