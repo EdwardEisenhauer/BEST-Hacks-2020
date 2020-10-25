@@ -120,7 +120,7 @@ function Auth({ setUser }) {
                         </form>
                     </div>
                 </Ons.Page>,
-                tab: <Ons.Tab label="Logowanie" icon="fa-sign-in-alt" />
+                tab: <Ons.Tab label="Logowanie" icon="md-sign-in" />
             },
 
             {
@@ -156,7 +156,7 @@ function Auth({ setUser }) {
                         </form>
                     </div>
                 </Ons.Page>,
-                tab: <Ons.Tab label="Rejestracja" icon="fa-user-plus" />
+                tab: <Ons.Tab label="Rejestracja" icon="md-account-add" />
             },
 
 
