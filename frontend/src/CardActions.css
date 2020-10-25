@@ -1,0 +1,15 @@
+.CardActions div {
+  display: flex;
+  align-items: center;
+}
+.CardActions div * {
+  display: block;
+}
+
+.CardActions div.left {
+  padding-left: 0.5em;
+}
+
+.CardActions div.left * {
+  padding-right: 0.5em;
+}

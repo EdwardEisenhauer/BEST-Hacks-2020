@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "type": "activity",
+      "user": "Sergiusz",
+      "title": "posted a picture of his meal!",
+      "text": "Ale sobie zjadłem żarełko bez mięsa dobre!",
+      "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.stylemotivation.com%2Fwp-content%2Fuploads%2F2019%2F06%2Fvegan-recipes-social-1544722587.jpg&f=1&nofb=1"
+    },
+    {
+      "id": 2,
+      "type": "tip",
+      "title": "Czy wiesz, że?",
+      "text": "Emisja CO spowodowana spożyciem 1 kg wołowiny odpowiada 27 kilometrom przejechanym samochodem.",
+      "tip_id": "1"
+    },
+    {
+      "id": 3,
+      "type": "quest",
+      "user": "Sergiusz",
+      "title": "completed a quest:",
+      "img": "https://images-gmi-pmc.edge-generalmills.com/087d17eb-500e-4b26-abd1-4f9ffa96a2c6.jpg",
+      "quest": {
+        "id": 1,
+        "title": "Upiecz ciasteczka, zamiast kupić w opakowaniu!",
+        "points": 8,
+        "category": "Żywienie",
+        "icon": "fa-utensils",
+        "additional note": "(PRZEPIS? >KLIKNIJ TU!< )",
+        "link": "https://www.domowe-wypieki.pl/przepisy/ciasteczka",
+        "friends": ["", ""]
+      }
+    },
+    {
+      "id": 4,
+      "type": "quest",
+      "user": "Wojtek",
+      "title": "completed a quest:",
+      "img": "https://i.pinimg.com/originals/c4/62/07/c46207717f84d562f7976c2fe1b453ff.jpg",
+      "quest": {
+        "id": 5,
+        "title": "Kup żywność od lokalnego rolnika!",
+        "points": 7,
+        "category": "Żywienie",
+        "img": "https://i.pinimg.com/originals/c4/62/07/c46207717f84d562f7976c2fe1b453ff.jpg",
+        "icon": "fa-utensils",
+        "additional note": "(GDZIE ZNAJDĘ LOKALNYCH ROLNIKÓW? >KLIKNIJ TU!<)",
+        "link": "https://lokalnyrolnik.pl/offer/mieso",
+        "users": ["wojtek", "julia"]
+      }
+    }
+  ]
+}

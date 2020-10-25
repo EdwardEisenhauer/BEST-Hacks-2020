@@ -1,0 +1,447 @@
+{
+  "quests": [
+    {
+      "id": 1,
+      "title": "Upiecz ciasteczka, zamiast kupić w opakowaniu!",
+      "points": 8,
+      "category": "Żywienie",
+      "img": "https://images-gmi-pmc.edge-generalmills.com/087d17eb-500e-4b26-abd1-4f9ffa96a2c6.jpg",
+      "icon": "fa-utensils",
+      "additional note": "Upiecz przepyszne domowe ciasteczka używając przepisu z linku znajdującego się poniżej.",
+      "link": "https://www.domowe-wypieki.pl/przepisy/ciasteczka",
+      "users": ["sergiusz"]
+    },
+    {
+      "id": 2,
+      "title": "Umyj lodówkę!",
+      "points": 5,
+      "category": "Żywienie",
+      "img": "https://reviewed-com-res.cloudinary.com/image/fetch/s--wUkdt1if--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_668,q_auto,w_1187/https://reviewed-production.s3.amazonaws.com/1580135180262/HERO.jpg",
+      "icon": "fa-utensils",
+      "additional note": "Brudne lodówki utrudniają przepływanie powietrza, przez co zużywają więcej energii, żeby się schłodzić.",
+      "users": []
+    },
+    {
+      "id": 3,
+      "title": "Zrób własny przetwór!",
+      "points": 9,
+      "category": "Żywienie",
+      "img": "https://www.wedrowkipokuchni.com.pl/wp-content/uploads/2016/07/ggg.jpg",
+      "icon": "fa-utensils",
+      "additional note": "(PRZEPIS? >KLIKNIJ TU!< )",
+      "link": " https://inspirowanesmakiem.pl/przetwory-owocowe-czy-znasz-je-wszystkie/",
+      "users": ["", ""]
+    },
+    {
+      "id": 4,
+      "title": "Pij wodę z kranu!",
+      "points": 2,
+      "category": "Żywienie",
+      "img": "http://www.zneutralizujchemie.pl/wp-content/uploads/2017/12/woda-z-kranu-min.jpg",
+      "icon": "fa-utensils",
+      "users": ["", ""]
+    },
+    {
+      "id": 5,
+      "title": "Kup żywność od lokalnego rolnika!",
+      "points": 7,
+      "category": "Żywienie",
+      "img": "https://i.pinimg.com/originals/c4/62/07/c46207717f84d562f7976c2fe1b453ff.jpg",
+      "icon": "fa-utensils",
+      "additional note": "(GDZIE ZNAJDĘ LOKALNYCH ROLNIKÓW? >KLIKNIJ TU!<)",
+      "link": "https://lokalnyrolnik.pl/offer/mieso",
+      "users": ["wojtek", "kacper"]
+    },
+    {
+      "id": 6,
+      "title": "Zastąp wołowinę!",
+      "points": 9,
+      "category": "Żywienie",
+      "img": "https://www.topagrar.pl/media/cache/a8/19/a81900dfc325dc3475ae1f58a30b9015.png",
+      "icon": "fa-utensils",
+      "users": ["", ""]
+    },
+    {
+      "id": 7,
+      "title": "Weź rower zamiast auta!",
+      "points": 5,
+      "category": "Transport",
+      "img": "https://www.sklepmartes.pl/127056-thickbox_default/dzieciecy-rowerek-biegowy-unicorn-run-bike-coolslide.jpg",
+      "icon": "fa-car",
+      "users": ["", ""]
+    },
+    {
+      "id": 8,
+      "title": "Idź pieszo zamiast jechać!",
+      "points": 5,
+      "category": "Transport",
+      "img": "https://scx2.b-cdn.net/gfx/news/hires/2017/iswalkingsuf.jpg",
+      "icon": "fa-car",
+      "users": []
+    },
+    {
+      "id": 9,
+      "title": "Skorzystaj z komunikacji miejskiej zamiast auta!",
+      "points": 5,
+      "category": "Transport",
+      "img": "https://telewizjarepublika.pl/imgcache/420x300/c/uploads/news/white-van.jpg",
+      "icon": "fa-car",
+      "users": []
+    },
+    {
+      "id": 10,
+      "title": "Kup bilet w wersji elektronicznej!",
+      "points": 1,
+      "category": "Transport",
+      "img": "https://d1tcrpfk632upo.cloudfront.net/wp-content/uploads/2017/02/22205448/Onlineticketsales.jpg",
+      "icon": "fa-car",
+      "users": []
+    },
+    {
+      "id": 11,
+      "title": "Zabierz się z kimś, zamiast jechać samemu!",
+      "points": 6,
+      "category": "Transport",
+      "img": "https://www.nomadicmatt.com/wp-content/uploads/2014/06/hitchhiking-matt.jpg",
+      "icon": "fa-car",
+      "additional note": "(KTO JEDZIE? >KLIKNIJ TU!<)",
+      "link": "https://www.blablacar.pl/",
+      "users": ["sergiusz", "julia"]
+    },
+    {
+      "id": 12,
+      "title": "Podwieź kogoś ze sobą!",
+      "points": 1,
+      "category": "Transport",
+      "img": "https://www.nomadicmatt.com/wp-content/uploads/2014/06/hitchhiking-matt.jpg",
+      "icon": "fa-car",
+      "additional note": "(GDZIE SIĘ OGŁOSIĆ? >KLIKNIJ TU!<)",
+      "link": "https://www.blablacar.pl/",
+      "users": ["", ""]
+    },
+    {
+      "id": 13,
+      "title": "Posadź drzewko!",
+      "points": 10,
+      "category": "Ekologia",
+      "img": "https://arbordayblog.org/wp-content/uploads/2018/06/oak-tree-sunset-iStock-477164218.jpg",
+      "icon": "fa-tree",
+      "users": ["", ""]
+    },
+    {
+      "id": 14,
+      "title": "Podlej wysuszone rośliny w swojej okolicy!",
+      "points": 7,
+      "category": "Ekologia",
+      "img": "https://www.bhg.com.au/media/17719/040518-dyingplant-2.jpg",
+      "icon": "fa-tree",
+      "users": ["", ""]
+    },
+    {
+      "id": 15,
+      "title": "Załóż kompostownik!",
+      "points": 3,
+      "category": "Ekologia",
+      "img": "https://ekofabryka.com.pl/wp-content/uploads/2020/04/Kompostownik-ogrodowy-ECO-MASTER-300-wrzut.jpg",
+      "icon": "fa-tree",
+      "users": ["", ""]
+    },
+    {
+      "id": 16,
+      "title": "Kup metalową słomkę!",
+      "points": 3,
+      "category": "Ekologia",
+      "img": "https://www.cosdlazdrowia.pl/assets/uploads/images/slo-met/1024_768_rurka-metalowa.jpg",
+      "icon": "fa-tree",
+      "users": ["", ""]
+    },
+    {
+      "id": 17,
+      "title": "Weź prysznic zamiast kąpieli!",
+      "points": 5,
+      "category": "Ekologia",
+      "img": "https://demotywatory.pl/uploads/201609/1473868725_wdatg2_600.jpg",
+      "icon": "fa-tree",
+      "users": ["", ""]
+    },
+    {
+      "id": 18,
+      "title": "Segreguj odpady!",
+      "points": 10,
+      "category": "Ekologia",
+      "img": "https://swidnica24.pl/wp-content/uploads/2019/09/Segregacja-odpado%CC%81w.png",
+      "icon": "fa-tree",
+      "users": ["", ""]
+    },
+    {
+      "id": 19,
+      "title": "Kup fikusa!",
+      "points": 8,
+      "category": "Ekologia",
+      "img": "https://s3.eu-central-1.amazonaws.com/pressland-cms/cache/metatags_image/yi/9838767-fikus-lirolistny-preparatem-nablyszczajacym-opryskujemy.jpeg",
+      "icon": "fa-tree",
+      "additional note": "Fikusy są w stanie usunąć formaldehyd, jedna z najsilniejszych substancji chemicznych w powietrzu.",
+      "users": ["", ""]
+    },
+    {
+      "id": 20,
+      "title": "Kup szklane pojemniki zamiast plastikowych!",
+      "points": 5,
+      "category": "Ekologia",
+      "img": "https://sklep.stalman.pl/pol_pl_Pojemnik-szklany-z-pokrywka-1150-ml-Lav-biala-uszczelka-3286_3.jpg",
+      "icon": "fa-tree",
+      "users": ["", ""]
+    },
+    {
+      "id": 21,
+      "title": "Odwiedź lokalny sklep z odzieżą używaną!",
+      "points": 6,
+      "category": "Recykling",
+      "img": "https://d-art.ppstatic.pl/kadry/k/r/27/81/536cd04ce058c_o_full.jpg",
+      "icon": "fa-tshirt",
+      "users": ["", ""]
+    },
+    {
+      "id": 22,
+      "title": "Oddaj nienoszone ubrania!",
+      "points": 10,
+      "category": "Recykling",
+      "img": "https://d-art.ppstatic.pl/kadry/k/r/27/81/536cd04ce058c_o_full.jpg",
+      "icon": "fa-tshirt",
+      "additional note": "(GDZIE SPRZEDAĆ? >KLIKNIJ TU!<)",
+      "link": "https://www.vinted.pl/",
+      "users": ["", ""]
+    },
+    {
+      "id": 23,
+      "title": "Odnieś wytłoczek po jajkach z powrotem do sklepu!",
+      "points": 2,
+      "category": "Recykling",
+      "img": "https://i.wpimg.pl/730x0/m.gadzetomania.pl/10-kanapda-92c22aec4c57887e9fa45.jpg",
+      "icon": "fa-tshirt",
+      "users": ["", ""]
+    },
+    {
+      "id": 24,
+      "title": "Kup koszyk wiklinowy na zakupy!",
+      "points": 4,
+      "category": "Recykling",
+      "img": "https://images.obi.pl/product/PL/1500x1500/578899_1.jpg",
+      "icon": "fa-tshirt",
+      "users": ["", ""]
+    },
+    {
+      "id": 25,
+      "title": "Oddaj stare koce i pościele do schroniska!",
+      "points": 8,
+      "category": "Recykling",
+      "img": "https://schronisko.org.pl/wp-content/uploads/2019/02/PIESKI.jpg-wielkie-600x450.jpg",
+      "icon": "fa-tshirt",
+      "users": ["", ""]
+    },
+    {
+      "id": 26,
+      "title": "Zrób własnoręczny kosmetyk!",
+      "points": 10,
+      "category": "Kosmetyki",
+      "img": "https://cdn.galleries.smcloud.net/t/galleries/gf-89pv-wkqx-EkKf_7-przepisow-na-naturalne-kosmetyki-diy-maski-odzywki-toniki-domowej-roboty-664x442-nocrop.jpg",
+      "icon": "fa-soap",
+      "additional note": "(PRZEPIS? >KLIKNIJ TU!<)",
+      "link": "https://natemat.pl/228219,nie-kupuj-zrob-je-sama-piec-prostych-przepisow-na-kosmetyki-domowej-roboty-z-udzialem-produktow-ktore-masz-w-kuchni",
+      "users": ["", ""]
+    },
+    {
+      "id": 27,
+      "title": "Użyj kuli do prania zamiast proszku!",
+      "points": 2,
+      "category": "Kosmetyki",
+      "img": "https://oily.pl/wp-content/uploads/2016/01/ecobola-de-lavado-power-clean-ball2.jpg",
+      "icon": "fa-soap",
+      "users": ["", ""]
+    },
+    {
+      "id": 28,
+      "title": "Przerób stare ubrania na ścierki!",
+      "points": 8,
+      "category": "Kosmetyki",
+      "img": "https://www.euro.com.pl/fckeditor/image/kontent-poradnik/33160-1.jpg",
+      "icon": "fa-soap",
+      "users": ["", ""]
+    },
+    {
+      "id": 29,
+      "title": "Kup bambusową szczoteczkę do zębów!",
+      "points": 5,
+      "category": "Kosmetyki",
+      "img": "https://cdn-ec.niceshops.com/upload/image/product/large/default/jo-browne-bambusowa-szczoteczka-do-zebow-1-st-1213944-pl.jpg",
+      "icon": "fa-soap",
+      "users": ["", ""]
+    },
+    {
+      "id": 30,
+      "title": "Kup szary papier z recyklingu!",
+      "points": 5,
+      "category": "Kosmetyki",
+      "img": "https://www.hurtowniaanna.pl/images/SZARY_PAPIER_48.png",
+      "icon": "fa-soap",
+      "users": ["", ""]
+    },
+    {
+      "id": 31,
+      "title": "Kup wielorazowe płatki kosmetyczne !",
+      "points": 5,
+      "category": "Kosmetyki",
+      "img": "https://www.zyjpieknie.pl/wp-content/uploads/2019/11/Zyj-pieknie_Uszyj-wielorazowe-platki-kosmetyczne-z-bawelnianego-szlafroka_06-1060x707.jpg",
+      "icon": "fa-soap",
+      "users": []
+    },
+    {
+      "id": 32,
+      "title": "Stwórz naturalny środek czystości!",
+      "points": 8,
+      "category": "Kosmetyki",
+      "img": "https://myslipotarganej.pl/wp-content/uploads/2019/06/naturalne-srodki-czyszczace2.jpg",
+      "icon": "fa-soap",
+      "additional note": "(PRZEPIS? >KLIKNIJ TU!<)",
+      "link": "https://dziecisawazne.pl/przepisy-na-domowe-srodki-czystosci/",
+      "users": ["", ""]
+    },
+    {
+      "id": 33,
+      "title": "Kup szmatkę z mikrofibry!",
+      "points": 5,
+      "category": "Kosmetyki",
+      "img": "https://detailingpro.pl/2106/mikrofibrapro-glass-touch-plus-sciereczka-do-sz.jpg",
+      "icon": "fa-soap",
+      "users": ["", ""]
+    },
+    {
+      "id": 34,
+      "title": "Przeczytaj gazetę i czasopismo w wersji elektronicznej!",
+      "points": 7,
+      "category": "Elektronika",
+      "img": "https://ekantor.pl/wp-content/uploads/2019/08/Podr%C3%B3%C5%BC-z-ksi%C4%85%C5%BCk%C4%85-TOP-7-aplikacji-do-czytania-ksi%C4%85%C5%BCek-na-Androidzie_najlepsze-aplikacje-ebook-do-czytania_ekantor-pl.png",
+      "icon": "fa-mobile-alt",
+      "users": ["", ""]
+    },
+    {
+      "id": 35,
+      "title": "Kup energooszczędne świetlówki LED!",
+      "points": 6,
+      "category": "Elektronika",
+      "img": "https://lampy.it/img/txt/zs1.jpg",
+      "icon": "fa-mobile-alt",
+      "users": ["", ""]
+    },
+    {
+      "id": 36,
+      "title": "Użyj eco drive!",
+      "points": 4,
+      "category": "Elektronika",
+      "img": "https://www.canadianfuels.ca/website/media/Images/Blog/April%202015/Drive-smoothly-for-better-fuel-efficiency.jpg?ext=.jpg",
+      "icon": "fa-mobile-alt",
+      "users": []
+    },
+    {
+      "id": 37,
+      "title": "Wyłącz tryb stand-by!",
+      "points": 6,
+      "category": "Elektronika",
+      "img": "https://gamesguru.org/wp-content/uploads/2015/11/please-stand-by-fallout-bethesda-1748x984.png",
+      "icon": "fa-mobile-alt",
+      "users": ["", ""]
+    },
+    {
+      "id": 38,
+      "title": "Oddaj starą elektronikę do specjalnego skupu!",
+      "points": 9,
+      "category": "Elektronika",
+      "img": "https://ekosystem.wroc.pl/content/uploads/2014/01/elektrozbiorka-elektrosmieci.jpg",
+      "icon": "fa-mobile-alt",
+      "users": ["", ""]
+    },
+    {
+      "id": 39,
+      "title": "Kup termostat!",
+      "points": 5,
+      "category": "Elektronika",
+      "img": "https://image.ceneostatic.pl/data/products/73611960/i-emos-termostat-p5604.jpg",
+      "icon": "fa-mobile-alt",
+      "users": ["", ""]
+    },
+    {
+      "id": 40,
+      "title": "Wyłącz wszystkie wygaszacze ekranu!",
+      "points": 4,
+      "category": "Elektronika",
+      "img": "https://img.compbs.com/img/reviews/277/these-3d-screensavers-for-windows-10-will-illuminate-your-desktop.jpg",
+      "icon": "fa-mobile-alt",
+      "users": ["", ""]
+    },
+    {
+      "id": 41,
+      "title": "Napraw zepsutą elektronikę!",
+      "points": 10,
+      "category": "Elektronika",
+      "img": "https://cdn.galleries.smcloud.net/t/galleries/gf-yE66-k8UU-nVDU_elektronika-664x442-nocrop.jpg",
+      "icon": "fa-mobile-alt",
+      "users": ["", ""]
+    },
+    {
+      "id": 42,
+      "title": "Zrób naturalną świecę!",
+      "points": 8,
+      "category": "Inne",
+      "img": "https://archistacja.pl/wp-content/uploads/2016/11/%C5%9Bwi%C4%85teczna-2.jpg",
+      "icon": "fa-user-friends",
+      "additional note": "(PRZEPIS? >KLIKNIJ TU!<)",
+      "link": "http://www.ekocentryczka.pl/2015/03/naturalne-swiece-diy.html",
+      "users": ["", ""]
+    },
+    {
+      "id": 43,
+      "title": "Skorzystaj ze schodów zamiast windy!",
+      "points": 1,
+      "category": "Inne",
+      "img": "https://dziennikzwiazkowy.com/wp-content/uploads/2018/04/2schody.jpg",
+      "icon": "fa-user-friends",
+      "users": ["", ""]
+    },
+    {
+      "id": 44,
+      "title": "Zaproś jednego znajomego do korzystania z aplikacji!",
+      "points": 8,
+      "category": "Inne",
+      "img": "https://www.opensourcealternative.org/wp-content/uploads/2019/11/What-are-Mobile-Software-Application.jpg",
+      "icon": "fa-user-friends",
+      "users": ["", ""]
+    },
+    {
+      "id": 45,
+      "title": "Zainteresuj się aktualną sytuacją klimatyczną kraju!",
+      "points": 6,
+      "category": "Inne",
+      "img": "https://wysokienapiecie.pl/wp-content/uploads/2019/02/klimat-1020x450.jpeg",
+      "icon": "fa-user-friends",
+      "users": []
+    },
+    {
+      "id": 46,
+      "title": "Dodaj nowe zadanie!",
+      "points": 8,
+      "category": "Inne",
+      "img": "https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/plus-512.png",
+      "icon": "fa-user-friends",
+      "users": []
+    },
+    {
+      "id": 47,
+      "title": "Podyskutuj ze znajomymi o katastrofie klimatycznej i jak jej zapobiec!",
+      "points": 10,
+      "category": "Inne",
+      "img": "https://www.unomaha.edu/news/events/2019/10/img/conversation_uno_mavdaily.jpg",
+      "icon": "fa-user-friends",
+      "users": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "users" : [
+    {
+      "id": 1,
+      "name": "sergiusz",
+      "friends": [],
+      "quests": [1],
+      "posts": [],
+      "points": 12
+    },
+    {
+      "id": 2,
+      "name": "wojtek",
+      "friends": [],
+      "quests": [],
+      "posts": [],
+      "points": 13
+    },
+    {
+      "id": 3,
+      "name": "kacper",
+      "friends": [],
+      "quests": [],
+      "posts": [],
+      "points": 3
+    },
+    {
+      "id": 4,
+      "name": "julia",
+      "friends": [],
+      "quests": [],
+      "posts": [],
+      "points": 21
+    }
+  ]
+}

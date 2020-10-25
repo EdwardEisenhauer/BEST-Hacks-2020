@@ -1,0 +1,9 @@
+{
+    "quest": {
+        "id": 2,
+        "title": "Is it burger time?",
+        "instruction": "Jak mi dadzą to jem",
+        "img": "https://ervegan.com/wp-content/uploads/2020/01/ervegan-logo-2020.jpg",
+        "link": "https://ervegan.com/2016/08/burgery-z-cukinii/"
+    }
+}
