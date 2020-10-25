@@ -3,6 +3,7 @@ import { useState, useEffect } from "react"
 import * as Ons from "react-onsenui"
 
 import Quest from "./Quest"
+import CardActions from "./CardActions"
 
 
 function getQuests() {
@@ -46,9 +47,9 @@ function QuestList({ navigator }) {
                 <div className="title" style={{ display: "flex", justifyContent: "space-between", paddingBottom: "0.2em" }}>
                     <div>{quest.title}</div><div style={{ paddingLeft: "0.2em" }}><Ons.Icon icon={quest.icon} /></div></div>
                 {quest.img && <div><img src={quest.img} style={{ width: "100%", borderRadius: 5 }} /></div>}
-                <div style={{ paddingTop: "0.7em", paddingRight: "0.5em", display: "flex", justifyContent: "flex-end", textTransform: "uppercase", color: "#3377ff", fontWeight: 600 }}>
+                <CardActions>
                     <a>Szczegóły</a>
-                </div>
+                </CardActions>
             </Ons.Card>
         ))}
     </ Ons.Page>);
