@@ -1,16 +1,29 @@
 import * as Ons from "react-onsenui"
 
-function User() {
-    return <div>
+function getUser(id) {
+    return fetch('/api/v1/users.json').then(data => data.json())
+}
+
+function User({route, navigator}) {
+    // const user = getUser(1);
+    return <Ons.Page renderToolbar={() =>
+        <Ons.Toolbar>
+            <Ons.BackButton />
+            <div className="center">User Profile</div>
+        </Ons.Toolbar>
+    }>
+        <Ons.Card>
         <style>
 
         </style>
 
         <img
-        src={"https://avatars0.githubusercontent.com/u/25778208?s=460&u=0333a8b6bdcff8a8ad623cde86b767515513b09a&v=4"}
-        style={{"margin": "0", "position": "absolute", "width": "30%", "top": "10%", "left": "50%", "transform": "translate(-50%, 0%)"}} alt={"Sergiusz"}/>
-        <p style={{"margin": "0", "position": "absolute", "top": "30%", "left": "50%", "transform": "translate(-50%, 0%)"}}>Sergiusz</p>
-        <div className={"title"}>Recent activity</div>
-    </div>
+        src={'/api/v1/avatars/sergiusz.jpeg'}
+        style={{"width": "30%", "align": "center"}} alt={"Sergiusz"}/>
+        <p style={{}}>Sergiusz</p>
+        <div className={"title"}>Recent activity:</div>
+            {/*{user}*/}
+    </Ons.Card>
+    </Ons.Page>
 }
 export default User

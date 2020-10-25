@@ -4,7 +4,7 @@
       "id": 1,
       "username": "sergiusz",
       "friends": [],
-      "quests": [],
+      "quests": [1],
       "posts": []
     },
     {
