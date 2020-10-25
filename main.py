@@ -2,7 +2,7 @@
 import json
 import os
 from random import randrange
-from flask import Flask, abort, request, jsonify
+from flask import Flask, abort, request, jsonify, send_from_directory
 from flask_login import LoginManager, login_user, UserMixin, login_required, current_user, logout_user
 from flask_sqlalchemy import SQLAlchemy
 from passlib.apps import custom_app_context as pwd_context
@@ -18,6 +18,11 @@ login_manager.init_app(app)
 
 # extensions
 db = SQLAlchemy(app)
+
+
+@app.route('/<path:path>')
+def send_file(path):
+    return send_from_directory('static', path)
 
 
 class User(UserMixin, db.Model):
@@ -84,7 +89,7 @@ def rest_login():
     return user.as_json()
 
 
-@app.route('/api/access/logout', methods=['get'])
+@app.route('/api/access/logout')
 @login_required
 def rest_logout():
     logout_user()
@@ -110,7 +115,7 @@ def get_user(user_id: int):
 
 @app.route('/api/quests')
 def get_quests():
-    with open("quests.json") as f:
+    with open("data/quests.json") as f:
         data = json.load(f)
         return jsonify(data)
 
@@ -119,7 +124,7 @@ def get_quests():
 def get_quest(quest_id: int):
     quest = None
     quest_id = int(quest_id)
-    with open("quests.json") as f:
+    with open("data/quests.json") as f:
         data = json.load(f)
         for q in data['quests']:
             if q['id'] == quest_id:
@@ -136,7 +141,7 @@ def get_quest(quest_id: int):
 
 @app.route('/api/posts')
 def get_posts():
-    with open("posts.json") as f:
+    with open("data/posts.json") as f:
         data = json.load(f)
         return jsonify(data)
 
@@ -145,7 +150,7 @@ def get_posts():
 def get_post(post_id: int):
     post = None
     post_id = int(post_id)
-    with open("posts.json") as f:
+    with open("data/posts.json") as f:
         data = json.load(f)
         for q in data['posts']:
             if q['id'] == post_id:
