@@ -5,6 +5,7 @@ import { useState, useEffect } from "react"
 import CardActions from "./CardActions"
 import PostQuest from "./PostQuest"
 import QuestMeta from "./QuestMeta"
+import getUser from "./User"
 
 function getQuest(id) {
     return fetch(`/api/v1/quests.json`).then(data => data.json()).then(data => ({
@@ -36,7 +37,7 @@ function Quest({ route, navigator }) {
                         {questDetails.title}
                     </div>
                     {questDetails.img && <div className="image" style={{ paddingBottom: "1em" }}>
-                        <img style={{ width: "100%", borderRadius: 5 }} src={questDetails.img}></img>
+                        <img style={{width: "100%", borderRadius: 5}} src={questDetails.img}/>
                     </div>}
                     <div className="content" style={{ paddingBottom: ".7em" }}>
                         {questDetails['additional note']}
@@ -57,8 +58,23 @@ function Quest({ route, navigator }) {
 
                 </Ons.Card>
                 <Ons.Card>
-                    <div style={{ paddingBottom: ".4em", paddingTop: ".2em", fontWeight: "bold", fontSize: "0.9em", color: "#222" }}>Znajomi, którzy ukończyli to zadanie:</div>
-                    <img src={"https://avatars0.githubusercontent.com/u/25778208?s=460&u=0333a8b6bdcff8a8ad623cde86b767515513b09a&v=4"} style={{ borderRadius: 5, "width": "2.5em", marginLeft: "0em", marginTop: ".3em" }} alt={"Sergiusz"} /> { /* Add href to Users' profiles */}
+                    <div style={{
+                        paddingBottom: ".4em",
+                        paddingTop: ".2em",
+                        fontWeight: "bold",
+                        fontSize: "0.9em",
+                        color: "#222"
+                    }}>Znajomi, którzy ukończyli to zadanie:</div>
+                    {questDetails.users.map(user => (
+                        <div><img src={'/api/v1/avatars/' + user.name + '.jpeg'} style={{
+                            borderRadius: 5,
+                            "width": "2.5em",
+                            marginLeft: "0em",
+                            marginTop: ".3em"
+                        }} alt={user.name} /></div>
+                        ))
+                    }
+                    { /* Add href to Users' profiles */}
                 </Ons.Card>
             </>)
         }
