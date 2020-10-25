@@ -7,7 +7,7 @@
             "category": "Żywienie",
             "img": "https://images-gmi-pmc.edge-generalmills.com/087d17eb-500e-4b26-abd1-4f9ffa96a2c6.jpg",
             "icon": "fa-utensils",
-            "additional note": "(Potrzebujesz przepisu na pyszne ciasteczka? >KLIKNIJ TU!<)",
+            "additional_note": "(Potrzebujesz przepisu na pyszne ciasteczka? >KLIKNIJ TU!<)",
             "link": "https://www.domowe-wypieki.pl/przepisy/ciasteczka",
             "friends": ["", ""]
         },
@@ -18,7 +18,7 @@
             "category": "Żywienie",
             "img": "https://reviewed-com-res.cloudinary.com/image/fetch/s--wUkdt1if--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_668,q_auto,w_1187/https://reviewed-production.s3.amazonaws.com/1580135180262/HERO.jpg",
             "icon": "fa-utensils",
-            "additional note": "(Brudne lodówki utrudniają przepływanie powietrza, przez co zużywają więcej energii, żeby się schłodzić. Poza tym śmierdzą.)",
+            "additional_note": "(Brudne lodówki utrudniają przepływanie powietrza, przez co zużywają więcej energii, żeby się schłodzić. Poza tym śmierdzą.)",
             "friends": ["", ""]
         },
         {
@@ -28,7 +28,7 @@
             "category": "Żywienie",
             "img": "https://www.wedrowkipokuchni.com.pl/wp-content/uploads/2016/07/ggg.jpg",
             "icon": "fa-utensils",
-            "additional note": "(Potrzebujesz przepisu na świetny przetwór? >KLIKNIJ TU!<)",
+            "additional_note": "(Potrzebujesz przepisu na świetny przetwór? >KLIKNIJ TU!<)",
             "link": " https://inspirowanesmakiem.pl/przetwory-owocowe-czy-znasz-je-wszystkie/",
             "friends": ["", ""]
         },
@@ -39,7 +39,7 @@
             "category": "Żywienie",
             "img": "http://www.zneutralizujchemie.pl/wp-content/uploads/2017/12/woda-z-kranu-min.jpg",
             "icon": "fa-utensils",
-            "additional note": "(Sprawdź stan wody we Wrocławiu -> >KLIKNIJ TU!<)",
+            "additional_note": "(Sprawdź stan wody we Wrocławiu -> >KLIKNIJ TU!<)",
             "link": "http://www.mpwik.wroc.pl/uslugi/uslugi-laboratoryjne/mapa-jakosci-wody/",
             "friends": ["", ""]
         },
@@ -50,7 +50,7 @@
             "category": "Żywienie",
             "img": "https://i.pinimg.com/originals/c4/62/07/c46207717f84d562f7976c2fe1b453ff.jpg",
             "icon": "fa-utensils",
-            "additional note": "(Gdzie znajdę lokalnych rolników? >KLIKNIJ TU!<)",
+            "additional_note": "(Gdzie znajdę lokalnych rolników? >KLIKNIJ TU!<)",
             "link": "https://lokalnyrolnik.pl/offer/mieso",
             "friends": ["", ""]
         },
@@ -61,7 +61,7 @@
             "category": "Żywienie",
             "img": "https://www.topagrar.pl/media/cache/a8/19/a81900dfc325dc3475ae1f58a30b9015.png",
             "icon": "fa-utensils",
-            "additional note": "(Poznaj wady i zalety jedzenia wołowiny -> >KLIKNIJ TU!<)",
+            "additional_note": "(Poznaj wady i zalety jedzenia wołowiny -> >KLIKNIJ TU!<)",
             "link": "https://www.poradnikzdrowie.pl/diety-i-zywienie/co-jesz/czy-warto-jesc-mieso-wady-i-zalety-jedzenia-miesa-aa-ioFF-XmjX-KPff.html",
             "friends": ["", ""]
         },
@@ -72,7 +72,7 @@
             "category": "Transport",
             "img": "https://www.sklepmartes.pl/127056-thickbox_default/dzieciecy-rowerek-biegowy-unicorn-run-bike-coolslide.jpg",
             "icon": "fa-car",
-            "additional note": "(We Wrocławiu i na terenie miasta funkcjonuje aplikacja nextbike, dowiedz się więcej -> >KLIKNIJ TU!<)",
+            "additional_note": "(We Wrocławiu i na terenie miasta funkcjonuje aplikacja nextbike, dowiedz się więcej -> >KLIKNIJ TU!<)",
             "link": "https://nextbike.pl/",
             "friends": ["", ""]
         },
@@ -83,7 +83,7 @@
             "category": "Transport",
             "img": "https://scx2.b-cdn.net/gfx/news/hires/2017/iswalkingsuf.jpg",
             "icon": "fa-car",
-            "additional note": "(Dzięki chodzeniu poprawiamy nasze zdrowie, jakość życia oraz stan portfela)",
+            "additional_note": "(Dzięki chodzeniu poprawiamy nasze zdrowie, jakość życia oraz stan portfela)",
             "friends": ["", ""]
         },
         {
@@ -92,7 +92,7 @@
             "points": 5,
             "category": "Transport",
             "img": "https://telewizjarepublika.pl/imgcache/420x300/c/uploads/news/white-van.jpg",
-            "additional note": "(Sieć wszystkich połączeń we Wrocławiu -> >KLIKNIJ TU!<)",
+            "additional_note": "(Sieć wszystkich połączeń we Wrocławiu -> >KLIKNIJ TU!<)",
             "link": "https://jakdojade.pl/wroclaw/trasa/",
             "icon": "fa-car",
             "friends": ["", ""]
@@ -103,7 +103,7 @@
             "points": 1,
             "category": "Transport",
             "img": "https://d1tcrpfk632upo.cloudfront.net/wp-content/uploads/2017/02/22205448/Onlineticketsales.jpg",
-            "additional note": "(Na terenie Wrocławia działają takie aplikacje jak moBILET lub zBiletem, które pozwolą nam zakupić bilety elektronicznie)",
+            "additional_note": "(Na terenie Wrocławia działają takie aplikacje jak moBILET lub zBiletem, które pozwolą nam zakupić bilety elektronicznie)",
             "icon": "fa-car",
             "friends": ["", ""]
         },
@@ -114,7 +114,7 @@
             "category": "Transport",
             "img": "https://www.nomadicmatt.com/wp-content/uploads/2014/06/hitchhiking-matt.jpg",
             "icon": "fa-car",
-            "additional note": "(Kto szuka podwózki? >KLIKNIJ TU!<)",
+            "additional_note": "(Kto szuka podwózki? >KLIKNIJ TU!<)",
             "link": "https://www.blablacar.pl/",
             "friends": ["", ""]
         },
@@ -125,7 +125,7 @@
             "category": "Transport",
             "img": "https://www.nomadicmatt.com/wp-content/uploads/2014/06/hitchhiking-matt.jpg",
             "icon": "fa-car",
-            "additional note": "(Gdzie sie ogłosić? >KLIKNIJ TU!<)",
+            "additional_note": "(Gdzie sie ogłosić? >KLIKNIJ TU!<)",
             "link": "https://www.blablacar.pl/",
             "friends": ["", ""]
         },
@@ -136,7 +136,7 @@
             "category": "Ekologia",
             "img": "https://arbordayblog.org/wp-content/uploads/2018/06/oak-tree-sunset-iStock-477164218.jpg",
             "icon": "fa-tree",
-            "additional note": "(Jak dbać o nasze nowo posadzone drzewko? >KLIKNIJ TU!<)",
+            "additional_note": "(Jak dbać o nasze nowo posadzone drzewko? >KLIKNIJ TU!<)",
             "link": "https://muratordom.pl/ogrod/pielegnacja-roslin/jak-dbac-o-drzewa-w-ogrodzie-ciecie-i-nawozenie-drzew-aa-mUGi-mrdw-EgV5.html",
             "friends": ["", ""]
         },
@@ -147,7 +147,7 @@
             "category": "Ekologia",
             "img": "https://www.bhg.com.au/media/17719/040518-dyingplant-2.jpg",
             "icon": "fa-tree",
-            "additional note": "(Wszystkie roślinki w Twoim otoczeniu usychają? Może to kwestia Twojego nastawienia -> >KLIKNIJ TU!<)",
+            "additional_note": "(Wszystkie roślinki w Twoim otoczeniu usychają? Może to kwestia Twojego nastawienia -> >KLIKNIJ TU!<)",
             "link": "https://www.martapisze.pl/2016/04/jak-stac-sie-pozytywnym-czlowiekiem.html",
             "friends": ["", ""]
         },
@@ -158,7 +158,7 @@
             "category": "Ekologia",
             "img": "https://ekofabryka.com.pl/wp-content/uploads/2020/04/Kompostownik-ogrodowy-ECO-MASTER-300-wrzut.jpg",
             "icon": "fa-tree",
-            "additional note": "(Nie wiesz co nadaje się na kompost, a co nie? -> >KLIKNIJ TU!<)",
+            "additional_note": "(Nie wiesz co nadaje się na kompost, a co nie? -> >KLIKNIJ TU!<)",
             "link": "https://siedem-wierzb.pl/kompostownik-jak-zrobic-co-wrzucac/",
             "friends": ["", ""]
         },
@@ -169,7 +169,7 @@
             "category": "Ekologia",
             "img": "https://www.cosdlazdrowia.pl/assets/uploads/images/slo-met/1024_768_rurka-metalowa.jpg",
             "icon": "fa-tree",
-            "additional note": "(Chociaż raz kup z porządnego sklepu -> >KLIKNIJ TU!<)",
+            "additional_note": "(Chociaż raz kup z porządnego sklepu -> >KLIKNIJ TU!<)",
             "link": "https://pajlo.pl/sklep/slomki-ekologiczne/slomki-metalowe/",
             "friends": ["", ""]
         },
@@ -180,7 +180,7 @@
             "category": "Ekologia",
             "img": "https://demotywatory.pl/uploads/201609/1473868725_wdatg2_600.jpg",
             "icon": "fa-tree",
-            "additional note": "(Nie, niemycie sie przez kilka dni nie jest ekologiczne)",
+            "additional_note": "(Nie, niemycie sie przez kilka dni nie jest ekologiczne)",
             "friends": ["", ""]
         },
         {
@@ -190,7 +190,7 @@
             "category": "Ekologia",
             "img": "https://swidnica24.pl/wp-content/uploads/2019/09/Segregacja-odpado%CC%81w.png",
             "icon": "fa-tree",
-            "additional note": "(Jaki kolor miało to szkło? -> >KLIKNIJ TU!<)",
+            "additional_note": "(Jaki kolor miało to szkło? -> >KLIKNIJ TU!<)",
             "link": "https://segregujna5.um.warszawa.pl/jak-segregowac/",
             "friends": ["", ""]
         },
@@ -201,7 +201,7 @@
             "category": "Ekologia",
             "img": "https://s3.eu-central-1.amazonaws.com/pressland-cms/cache/metatags_image/yi/9838767-fikus-lirolistny-preparatem-nablyszczajacym-opryskujemy.jpeg",
             "icon": "fa-tree",
-            "additional note": "Fikusy są w stanie usunąć formaldehyd, jedna z najsilniejszych substancji chemicznych w powietrzu. Jest poza tym bardzo wytrzymały i ciężki do przesuszenia.",
+            "additional_note": "Fikusy są w stanie usunąć formaldehyd, jedna z najsilniejszych substancji chemicznych w powietrzu. Jest poza tym bardzo wytrzymały i ciężki do przesuszenia.",
             "friends": ["", ""]
         },
         {
@@ -211,7 +211,7 @@
             "category": "Ekologia",
             "img": "https://sklep.stalman.pl/pol_pl_Pojemnik-szklany-z-pokrywka-1150-ml-Lav-biala-uszczelka-3286_3.jpg",
             "icon": "fa-tree",
-            "additional note": "(Kto by nie chciał się przejechać do Ikei po nowe pojemniki? -> >KLIKNIJ TU!<)",
+            "additional_note": "(Kto by nie chciał się przejechać do Ikei po nowe pojemniki? -> >KLIKNIJ TU!<)",
             "link": "https://www.ikea.com/pl/pl/cat/pojemniki-na-zywnosc-20606/",
             "friends": ["", ""]
         },
@@ -222,7 +222,7 @@
             "category": "Recykling",
             "img": "https://d-art.ppstatic.pl/kadry/k/r/27/81/536cd04ce058c_o_full.jpg",
             "icon": "fa-tshirt",
-            "additional note": "(Dajmy ciuchom nowe życie!)",
+            "additional_note": "(Dajmy ciuchom nowe życie!)",
             "friends": ["", ""]
         },
         {
@@ -232,7 +232,7 @@
             "category": "Recykling",
             "img": "https://d-art.ppstatic.pl/kadry/k/r/27/81/536cd04ce058c_o_full.jpg",
             "icon": "fa-tshirt",
-            "additional note": "(Gdzie sprzedać? >KLIKNIJ TU!<)",
+            "additional_note": "(Gdzie sprzedać? >KLIKNIJ TU!<)",
             "link": "https://www.vinted.pl/",
             "friends": ["", ""]
         },
@@ -243,7 +243,7 @@
             "category": "Recykling",
             "img": "https://i.wpimg.pl/730x0/m.gadzetomania.pl/10-kanapda-92c22aec4c57887e9fa45.jpg",
             "icon": "fa-tshirt",
-            "additional note": "(Wiedziałeś, że tuzin to 12 jajek, mendel to 15, a kopa to 60?)",
+            "additional_note": "(Wiedziałeś, że tuzin to 12 jajek, mendel to 15, a kopa to 60?)",
             "friends": ["", ""]
         },
         {
@@ -253,7 +253,7 @@
             "category": "Recykling",
             "img": "https://images.obi.pl/product/PL/1500x1500/578899_1.jpg",
             "icon": "fa-tshirt",
-            "additional note": "(Stylowy i wytrzymały.)",
+            "additional_note": "(Stylowy i wytrzymały.)",
             "friends": ["", ""]
         },
         {
@@ -263,7 +263,7 @@
             "category": "Recykling",
             "img": "https://schronisko.org.pl/wp-content/uploads/2019/02/PIESKI.jpg-wielkie-600x450.jpg",
             "icon": "fa-tshirt",
-            "additional note": "(A przy okazji wizyty w schronisku możesz adoptować kotka albo pieska >KLIKNIJ TU!<)",
+            "additional_note": "(A przy okazji wizyty w schronisku możesz adoptować kotka albo pieska >KLIKNIJ TU!<)",
             "link": "https://otoz.pl/wykaz-schronisk-w-polsce/",
             "friends": ["", ""]
         },
@@ -274,7 +274,7 @@
             "category": "Kosmetyki",
             "img": "https://cdn.galleries.smcloud.net/t/galleries/gf-89pv-wkqx-EkKf_7-przepisow-na-naturalne-kosmetyki-diy-maski-odzywki-toniki-domowej-roboty-664x442-nocrop.jpg",
             "icon": "fa-soap",
-            "additional note": "(Przepis? >KLIKNIJ TU!<)",
+            "additional_note": "(Przepis? >KLIKNIJ TU!<)",
             "link": "https://natemat.pl/228219,nie-kupuj-zrob-je-sama-piec-prostych-przepisow-na-kosmetyki-domowej-roboty-z-udzialem-produktow-ktore-masz-w-kuchni",
             "friends": ["", ""]
         },
@@ -285,7 +285,7 @@
             "category": "Kosmetyki",
             "img": "https://oily.pl/wp-content/uploads/2016/01/ecobola-de-lavado-power-clean-ball2.jpg",
             "icon": "fa-soap",
-            "additional note": "(Dostępne w najróżniejszych kolorach)",
+            "additional_note": "(Dostępne w najróżniejszych kolorach)",
             "friends": ["", ""]
         },
         {
@@ -295,7 +295,7 @@
             "category": "Kosmetyki",
             "img": "https://www.euro.com.pl/fckeditor/image/kontent-poradnik/33160-1.jpg",
             "icon": "fa-soap",
-            "additional note": "(Tylko takie, do których na pewno nie będziesz chciał wrócić.)",
+            "additional_note": "(Tylko takie, do których na pewno nie będziesz chciał wrócić.)",
             "friends": ["", ""]
         },
         {
@@ -305,7 +305,7 @@
             "category": "Kosmetyki",
             "img": "https://cdn-ec.niceshops.com/upload/image/product/large/default/jo-browne-bambusowa-szczoteczka-do-zebow-1-st-1213944-pl.jpg",
             "icon": "fa-soap",
-            "additional note": "(Możesz czekać na promocje w Rossmanie lub kupić tutaj -> >KLIKNIJ TU!<)",
+            "additional_note": "(Możesz czekać na promocje w Rossmanie lub kupić tutaj -> >KLIKNIJ TU!<)",
             "link": "https://pandawanda.pl/pl/searchquery/szczoteczka+bambusowa/1/phot/5?url=szczoteczka,bambusowa&gclid=CjwKCAjwoc_8BRAcEiwAzJevtYJlHY5EnjEqydtL-eiLUhMal8fYTg3Awb_h51NDY9gVNKkloKha8RoCUS4QAvD_BwE",
             "friends": ["", ""]
         },
@@ -316,7 +316,7 @@
             "category": "Kosmetyki",
             "img": "https://www.hurtowniaanna.pl/images/SZARY_PAPIER_48.png",
             "icon": "fa-soap",
-            "additional note": "(Może nie jest stylowy, ale ekologiczny!)",
+            "additional_note": "(Może nie jest stylowy, ale ekologiczny!)",
             "friends": ["", ""]
         },
         {
@@ -326,7 +326,7 @@
             "category": "Kosmetyki",
             "img": "https://www.zyjpieknie.pl/wp-content/uploads/2019/11/Zyj-pieknie_Uszyj-wielorazowe-platki-kosmetyczne-z-bawelnianego-szlafroka_06-1060x707.jpg",
             "icon": "fa-soap",
-            "additional note": "(Gdzie kupić? >KLIKNIJ TU!<)",
+            "additional_note": "(Gdzie kupić? >KLIKNIJ TU!<)",
             "link": "https://pandawanda.pl/pl/searchquery/p%C5%82atki+kosmetyczne/1/phot/5?url=p%C5%82atki,kosmetyczne&gclid=CjwKCAjwoc_8BRAcEiwAzJevtUYt72MD0C2ROUIi92mbyw3uOKvYDuX4Yfl4d4wYkmgcz53ABpXCvhoCIq4QAvD_BwE",
             "friends": ["", ""]
         },
@@ -337,7 +337,7 @@
             "category": "Kosmetyki",
             "img": "https://myslipotarganej.pl/wp-content/uploads/2019/06/naturalne-srodki-czyszczace2.jpg",
             "icon": "fa-soap",
-            "additional note": "(Przepis? >KLIKNIJ TU!<)",
+            "additional_note": "(Przepis? >KLIKNIJ TU!<)",
             "link": "https://dziecisawazne.pl/przepisy-na-domowe-srodki-czystosci/",
             "friends": ["", ""]
         },
@@ -348,7 +348,7 @@
             "category": "Kosmetyki",
             "img": "https://detailingpro.pl/2106/mikrofibrapro-glass-touch-plus-sciereczka-do-sz.jpg",
             "icon": "fa-soap",
-            "additional note": "(Używając mikrofibry usuwasz do 27% więcej zanieczyszczeń!)",
+            "additional_note": "(Używając mikrofibry usuwasz do 27% więcej zanieczyszczeń!)",
             "friends": ["", ""]
         },
         {
@@ -358,7 +358,7 @@
             "category": "Elektronika",
             "img": "https://ekantor.pl/wp-content/uploads/2019/08/Podr%C3%B3%C5%BC-z-ksi%C4%85%C5%BCk%C4%85-TOP-7-aplikacji-do-czytania-ksi%C4%85%C5%BCek-na-Androidzie_najlepsze-aplikacje-ebook-do-czytania_ekantor-pl.png",
             "icon": "fa-mobile-alt",
-            "additional note": "(Co można czytać? >KLIKNIJ TU<)",
+            "additional_note": "(Co można czytać? >KLIKNIJ TU<)",
             "link": "https://www.egazety.pl/index.html",
             "friends": ["", ""]
         },
@@ -369,7 +369,7 @@
             "category": "Elektronika",
             "img": "https://lampy.it/img/txt/zs1.jpg",
             "icon": "fa-mobile-alt",
-            "additional note": "(Jakie żarówki wybrać? >KLIKNIJ TU<)",
+            "additional_note": "(Jakie żarówki wybrać? >KLIKNIJ TU<)",
             "link": "https://lampy.it/zrodla-swiatla-zarowki-led",
             "friends": ["", ""]
         },
@@ -380,7 +380,7 @@
             "category": "Elektronika",
             "img": "https://www.canadianfuels.ca/website/media/Images/Blog/April%202015/Drive-smoothly-for-better-fuel-efficiency.jpg?ext=.jpg",
             "icon": "fa-mobile-alt",
-            "additional note": "(Na czym polega eco-drive? >KLIKNIJ TU<)",
+            "additional_note": "(Na czym polega eco-drive? >KLIKNIJ TU<)",
             "link": "https://www.motofakty.pl/artykul/eco-driving-na-czym-polega-chodzi-nie-tylko-o-oszczednosc-paliwa.html",
             "friends": ["", ""]
         },
@@ -391,7 +391,7 @@
             "category": "Elektronika",
             "img": "https://gamesguru.org/wp-content/uploads/2015/11/please-stand-by-fallout-bethesda-1748x984.png",
             "icon": "fa-mobile-alt",
-            "additional note": "(Wolność dla zapracowanych ekranów!)",
+            "additional_note": "(Wolność dla zapracowanych ekranów!)",
             "friends": ["", ""]
         },
         {
@@ -401,7 +401,7 @@
             "category": "Elektronika",
             "img": "https://ekosystem.wroc.pl/content/uploads/2014/01/elektrozbiorka-elektrosmieci.jpg",
             "icon": "fa-mobile-alt",
-            "additional note": "(Gdzie oddać elektronikę? >KLIKNIJ TU<)",
+            "additional_note": "(Gdzie oddać elektronikę? >KLIKNIJ TU<)",
             "link": "https://www.wroclaw.pl/co-zrobic-ze-zuzytym-sprzetem-elektrycznym-i-elektronicznym",
             "friends": ["", ""]
         },
@@ -412,7 +412,7 @@
             "category": "Elektronika",
             "img": "https://image.ceneostatic.pl/data/products/73611960/i-emos-termostat-p5604.jpg",
             "icon": "fa-mobile-alt",
-            "additional note": "(Termostat pomoże kontrolować temperaturę w Twoim domu oraz zmniejszy niepotrzebne zużycie energii)",
+            "additional_note": "(Termostat pomoże kontrolować temperaturę w Twoim domu oraz zmniejszy niepotrzebne zużycie energii)",
             "friends": ["", ""]
         },
         {
@@ -422,7 +422,7 @@
             "category": "Elektronika",
             "img": "https://img.compbs.com/img/reviews/277/these-3d-screensavers-for-windows-10-will-illuminate-your-desktop.jpg",
             "icon": "fa-mobile-alt",
-            "additional note": "(Wiem, że te bąbelki są fajne, ale musisz je wyłączyć. Dla dobra środowiska.)",
+            "additional_note": "(Wiem, że te bąbelki są fajne, ale musisz je wyłączyć. Dla dobra środowiska.)",
             "friends": ["", ""]
         },
         {
@@ -432,7 +432,7 @@
             "category": "Elektronika",
             "img": "https://cdn.galleries.smcloud.net/t/galleries/gf-yE66-k8UU-nVDU_elektronika-664x442-nocrop.jpg",
             "icon": "fa-mobile-alt",
-            "additional note": "(Chcesz zostać inżynierem, tak?)",
+            "additional_note": "(Chcesz zostać inżynierem, tak?)",
             "friends": ["", ""]
         },
         {
@@ -442,7 +442,7 @@
             "category": "Inne",
             "img": "https://archistacja.pl/wp-content/uploads/2016/11/%C5%9Bwi%C4%85teczna-2.jpg",
             "icon": "fa-user-friends",
-            "additional note": "(Przepis? >KLIKNIJ TU!<)",
+            "additional_note": "(Przepis? >KLIKNIJ TU!<)",
             "link": "http://www.ekocentryczka.pl/2015/03/naturalne-swiece-diy.html",
             "friends": ["", ""]
         },
@@ -453,7 +453,7 @@
             "category": "Inne",
             "img": "https://dziennikzwiazkowy.com/wp-content/uploads/2018/04/2schody.jpg",
             "icon": "fa-user-friends",
-            "additional note": "(Możesz nawet zacząć liczyć te schody -> >KLIKNIJ TU!<)",
+            "additional_note": "(Możesz nawet zacząć liczyć te schody -> >KLIKNIJ TU!<)",
             "link": "https://play.google.com/store/apps/details?id=com.caynax.sportstracker&hl=pl",
             "friends": ["", ""]
         },
@@ -464,7 +464,7 @@
             "category": "Inne",
             "img": "https://www.opensourcealternative.org/wp-content/uploads/2019/11/What-are-Mobile-Software-Application.jpg",
             "icon": "fa-user-friends",
-            "additional note": "(Dzięki temu będziecie wspólnie porównywali swoje osiągnięcia i razem pomagali planecie :))",
+            "additional_note": "(Dzięki temu będziecie wspólnie porównywali swoje osiągnięcia i razem pomagali planecie :))",
             "friends": ["", ""]
         },
         {
@@ -474,7 +474,7 @@
             "category": "Inne",
             "img": "https://wysokienapiecie.pl/wp-content/uploads/2019/02/klimat-1020x450.jpeg",
             "icon": "fa-user-friends",
-            "additional note": "(Gdzie sprawdzić aktualności związane z klimatem? -> >KLIKNIJ TU!<)",
+            "additional_note": "(Gdzie sprawdzić aktualności związane z klimatem? -> >KLIKNIJ TU!<)",
             "link": "https://naukaoklimacie.pl/aktualnosci",
             "friends": ["", ""]
         },
@@ -485,7 +485,7 @@
             "category": "Inne",
             "img": "https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/plus-512.png",
             "icon": "fa-user-friends",
-            "additional note": "(Dodaj zadanie, aby rozwijać nasza aplikację i wspólnie dbać o środowisko!)",
+            "additional_note": "(Dodaj zadanie, aby rozwijać nasza aplikację i wspólnie dbać o środowisko!)",
             "friends": ["", ""]
         },
         {
@@ -495,7 +495,7 @@
             "category": "Inne",
             "img": "https://www.unomaha.edu/news/events/2019/10/img/conversation_uno_mavdaily.jpg",
             "icon": "fa-user-friends",
-            "additional note": "(...tylko bez kłótni :( )",
+            "additional_note": "(...tylko bez kłótni :( )",
             "friends": ["", ""]
         }
     ]
