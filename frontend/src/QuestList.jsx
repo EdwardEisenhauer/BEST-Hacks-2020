@@ -11,13 +11,7 @@ import { useUser } from "./Auth"
 
 function getQuests() {
     return fetch('/api/quests').then(data => data.json()).then(data => ({
-        "quests": [ // TODO_DEMO: randomize
-            data.quests[0],
-            data.quests[10],
-            data.quests[20],
-            data.quests[30],
-            data.quests[40],
-        ]
+        "quests": data.quests.sort(() => Math.random() - Math.random()).slice(0, 5)
     }))
 }
 

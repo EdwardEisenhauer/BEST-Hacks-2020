@@ -11,12 +11,19 @@ import Auth, { UserContext } from "./Auth"
 function App() {
     const [tabbarIndex, setTabbarIndex] = useState(0);
     const [user, setUser] = useState(null);
+    const [checkingLogin, setCheckingLogin] = useState(true)
 
 
     useEffect(() => {
         if (user == null) fetch("/api/user/me").then((response) => {
+
             if (response.status == 200) {
-                response.json().then(({ user }) => console.log(user) || setUser(user))
+                response.json().then(({ user }) => {
+                    setUser(user)
+                    setCheckingLogin(false)
+                })
+            } else {
+                setCheckingLogin(false)
             }
         })
     }, [user])
@@ -44,7 +51,7 @@ function App() {
                         tab: <Ons.Tab label="Settings" icon="md-settings" />
                     }
                 ]} /></UserContext.Provider>
-            : <Auth setUser={setUser} />
+            : (checkingLogin ? null : <Auth setUser={setUser} />)
     );
 }
 
